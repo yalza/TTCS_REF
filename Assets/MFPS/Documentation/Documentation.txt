@@ -1,0 +1,10 @@
+You can find the documentation in (Unity Menu) MFPS -> Tutorials -> Documentation.
+that for the general documentation, but also there are separated tutorials for the most common topics:
+
+For Add New Weapons:               MFPS -> Tutorials -> Add Weapon
+For Add New Maps:                  MFPS -> Tutorials -> Add Map
+For Add/Replace Player Models:     MFPS -> Tutorials -> Add Player
+For Add/Replace Bots Models:       MFPS -> Tutorials -> Change Bots
+
+Hopefully you find them useful otherwise let me know if you have problems or can't find documentation about a specific topic,
+please contact us before leave a bad review, most likely you will find the solution to your problem/error from us.

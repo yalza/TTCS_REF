@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: b241fe872b692d14784eb432073b73c2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 32
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Khula
+  fontNames:
+  - Khula
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 31f58d35dd29a3845a052ff643551cc9, type: 3}
+  - {fileID: 12800000, guid: a45bcc8965ecdb341a9461f7833fdabb, type: 3}
+  - {fileID: 12800000, guid: 4b0515db6d43eb34b960fe0c88d2783c, type: 3}
+  - {fileID: 12800000, guid: 3047a2dd193a934459f6a011c36ccf1a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 1
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 1
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

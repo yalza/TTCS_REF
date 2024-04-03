@@ -1,0 +1,3327 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.caw",
+      "DisplayName": "Copying 1d18030e3498e9929ef5938cdc249da1.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.caw"
+      ],
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.ecm",
+      "DisplayName": "Copying 1d18030e3498e9929ef5938cdc249da1.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.ecm"
+      ],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.iws.sse",
+      "DisplayName": "Copying 1d18030e3498e9929ef5938cdc249da1.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.iws.sse"
+      ],
+      "DebugActionIndex": 3
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rgb",
+      "DisplayName": "Copying 1d18030e3498e9929ef5938cdc249da1.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rgb"
+      ],
+      "DebugActionIndex": 4
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rsc.sse",
+      "DisplayName": "Copying 1d18030e3498e9929ef5938cdc249da1.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rsc.sse"
+      ],
+      "DebugActionIndex": 5
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.vis",
+      "DisplayName": "Copying 1d18030e3498e9929ef5938cdc249da1.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.vis"
+      ],
+      "DebugActionIndex": 6
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.caw",
+      "DisplayName": "Copying 25abd75e1bc13e4e4e308a2c5802a745.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.caw"
+      ],
+      "DebugActionIndex": 7
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.ecm",
+      "DisplayName": "Copying 25abd75e1bc13e4e4e308a2c5802a745.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.ecm"
+      ],
+      "DebugActionIndex": 8
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.iws.sse",
+      "DisplayName": "Copying 25abd75e1bc13e4e4e308a2c5802a745.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.iws.sse"
+      ],
+      "DebugActionIndex": 9
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rgb",
+      "DisplayName": "Copying 25abd75e1bc13e4e4e308a2c5802a745.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rgb"
+      ],
+      "DebugActionIndex": 10
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rsc.sse",
+      "DisplayName": "Copying 25abd75e1bc13e4e4e308a2c5802a745.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rsc.sse"
+      ],
+      "DebugActionIndex": 11
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.vis",
+      "DisplayName": "Copying 25abd75e1bc13e4e4e308a2c5802a745.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.vis"
+      ],
+      "DebugActionIndex": 12
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.caw",
+      "DisplayName": "Copying 44137e49f52bc89d7b31634da78578bc.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.caw"
+      ],
+      "DebugActionIndex": 13
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.ecm",
+      "DisplayName": "Copying 44137e49f52bc89d7b31634da78578bc.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.ecm"
+      ],
+      "DebugActionIndex": 14
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.iws.sse",
+      "DisplayName": "Copying 44137e49f52bc89d7b31634da78578bc.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.iws.sse"
+      ],
+      "DebugActionIndex": 15
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rgb",
+      "DisplayName": "Copying 44137e49f52bc89d7b31634da78578bc.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rgb"
+      ],
+      "DebugActionIndex": 16
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rsc.sse",
+      "DisplayName": "Copying 44137e49f52bc89d7b31634da78578bc.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rsc.sse"
+      ],
+      "DebugActionIndex": 17
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.vis",
+      "DisplayName": "Copying 44137e49f52bc89d7b31634da78578bc.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.vis"
+      ],
+      "DebugActionIndex": 18
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.caw",
+      "DisplayName": "Copying 5ede53490384f4ef494c6036bf1ef7d6.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.caw"
+      ],
+      "DebugActionIndex": 19
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.ecm",
+      "DisplayName": "Copying 5ede53490384f4ef494c6036bf1ef7d6.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.ecm"
+      ],
+      "DebugActionIndex": 20
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.iws.sse",
+      "DisplayName": "Copying 5ede53490384f4ef494c6036bf1ef7d6.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.iws.sse"
+      ],
+      "DebugActionIndex": 21
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rgb",
+      "DisplayName": "Copying 5ede53490384f4ef494c6036bf1ef7d6.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rgb"
+      ],
+      "DebugActionIndex": 22
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rsc.sse",
+      "DisplayName": "Copying 5ede53490384f4ef494c6036bf1ef7d6.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rsc.sse"
+      ],
+      "DebugActionIndex": 23
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.vis",
+      "DisplayName": "Copying 5ede53490384f4ef494c6036bf1ef7d6.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.vis"
+      ],
+      "DebugActionIndex": 24
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.caw",
+      "DisplayName": "Copying 7e9e0b6e4799e22d679abd10d53ff567.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.caw"
+      ],
+      "DebugActionIndex": 25
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.ecm",
+      "DisplayName": "Copying 7e9e0b6e4799e22d679abd10d53ff567.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.ecm"
+      ],
+      "DebugActionIndex": 26
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.iws.sse",
+      "DisplayName": "Copying 7e9e0b6e4799e22d679abd10d53ff567.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.iws.sse"
+      ],
+      "DebugActionIndex": 27
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rgb",
+      "DisplayName": "Copying 7e9e0b6e4799e22d679abd10d53ff567.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rgb"
+      ],
+      "DebugActionIndex": 28
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rsc.sse",
+      "DisplayName": "Copying 7e9e0b6e4799e22d679abd10d53ff567.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rsc.sse"
+      ],
+      "DebugActionIndex": 29
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.vis",
+      "DisplayName": "Copying 7e9e0b6e4799e22d679abd10d53ff567.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.vis"
+      ],
+      "DebugActionIndex": 30
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.caw",
+      "DisplayName": "Copying c158fb012e26e14153b50ac7d7d6af6b.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.caw"
+      ],
+      "DebugActionIndex": 31
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.ecm",
+      "DisplayName": "Copying c158fb012e26e14153b50ac7d7d6af6b.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.ecm"
+      ],
+      "DebugActionIndex": 32
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.iws.sse",
+      "DisplayName": "Copying c158fb012e26e14153b50ac7d7d6af6b.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.iws.sse"
+      ],
+      "DebugActionIndex": 33
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rgb",
+      "DisplayName": "Copying c158fb012e26e14153b50ac7d7d6af6b.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rgb"
+      ],
+      "DebugActionIndex": 34
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rsc.sse",
+      "DisplayName": "Copying c158fb012e26e14153b50ac7d7d6af6b.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rsc.sse"
+      ],
+      "DebugActionIndex": 35
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.vis",
+      "DisplayName": "Copying c158fb012e26e14153b50ac7d7d6af6b.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.vis"
+      ],
+      "DebugActionIndex": 36
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.caw",
+      "DisplayName": "Copying da3d34ae864a37e30cb88611e1d4e7dd.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.caw"
+      ],
+      "DebugActionIndex": 37
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.ecm",
+      "DisplayName": "Copying da3d34ae864a37e30cb88611e1d4e7dd.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.ecm"
+      ],
+      "DebugActionIndex": 38
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.iws.sse",
+      "DisplayName": "Copying da3d34ae864a37e30cb88611e1d4e7dd.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.iws.sse"
+      ],
+      "DebugActionIndex": 39
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rgb",
+      "DisplayName": "Copying da3d34ae864a37e30cb88611e1d4e7dd.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rgb"
+      ],
+      "DebugActionIndex": 40
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rsc.sse",
+      "DisplayName": "Copying da3d34ae864a37e30cb88611e1d4e7dd.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rsc.sse"
+      ],
+      "DebugActionIndex": 41
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.vis",
+      "DisplayName": "Copying da3d34ae864a37e30cb88611e1d4e7dd.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.vis"
+      ],
+      "DebugActionIndex": 42
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.caw",
+      "DisplayName": "Copying e0343d7a8e5c3202706b6ad7116a44dc.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.caw"
+      ],
+      "DebugActionIndex": 43
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.ecm",
+      "DisplayName": "Copying e0343d7a8e5c3202706b6ad7116a44dc.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.ecm"
+      ],
+      "DebugActionIndex": 44
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.iws.sse",
+      "DisplayName": "Copying e0343d7a8e5c3202706b6ad7116a44dc.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.iws.sse"
+      ],
+      "DebugActionIndex": 45
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rgb",
+      "DisplayName": "Copying e0343d7a8e5c3202706b6ad7116a44dc.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rgb"
+      ],
+      "DebugActionIndex": 46
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rsc.sse",
+      "DisplayName": "Copying e0343d7a8e5c3202706b6ad7116a44dc.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rsc.sse"
+      ],
+      "DebugActionIndex": 47
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.vis",
+      "DisplayName": "Copying e0343d7a8e5c3202706b6ad7116a44dc.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.vis"
+      ],
+      "DebugActionIndex": 48
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.caw",
+      "DisplayName": "Copying ed751f8cb52fd808bbcf5fc53835e1c4.caw",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.caw"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.caw"
+      ],
+      "DebugActionIndex": 49
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.ecm",
+      "DisplayName": "Copying ed751f8cb52fd808bbcf5fc53835e1c4.ecm",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.ecm"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.ecm"
+      ],
+      "DebugActionIndex": 50
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.iws.sse",
+      "DisplayName": "Copying ed751f8cb52fd808bbcf5fc53835e1c4.iws.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.iws.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.iws.sse"
+      ],
+      "DebugActionIndex": 51
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rgb",
+      "DisplayName": "Copying ed751f8cb52fd808bbcf5fc53835e1c4.rgb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rgb"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rgb"
+      ],
+      "DebugActionIndex": 52
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rsc.sse",
+      "DisplayName": "Copying ed751f8cb52fd808bbcf5fc53835e1c4.rsc.sse",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rsc.sse"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rsc.sse"
+      ],
+      "DebugActionIndex": 53
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.vis",
+      "DisplayName": "Copying ed751f8cb52fd808bbcf5fc53835e1c4.vis",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.vis"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.vis"
+      ],
+      "DebugActionIndex": 54
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/globalgamemanagers",
+      "DisplayName": "Copying globalgamemanagers",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/globalgamemanagers"
+      ],
+      "DebugActionIndex": 55
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/globalgamemanagers.assets",
+      "DisplayName": "Copying globalgamemanagers.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/globalgamemanagers.assets"
+      ],
+      "DebugActionIndex": 56
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/globalgamemanagers.assets.resS",
+      "DisplayName": "Copying globalgamemanagers.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets.resS"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/globalgamemanagers.assets.resS"
+      ],
+      "DebugActionIndex": 57
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/level0",
+      "DisplayName": "Copying level0",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level0"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/level0"
+      ],
+      "DebugActionIndex": 58
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/level1",
+      "DisplayName": "Copying level1",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level1"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/level1"
+      ],
+      "DebugActionIndex": 59
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/level1.resS",
+      "DisplayName": "Copying level1.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/level1.resS"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/level1.resS"
+      ],
+      "DebugActionIndex": 60
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/resources.assets",
+      "DisplayName": "Copying resources.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/resources.assets"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/resources.assets"
+      ],
+      "DebugActionIndex": 61
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/resources.assets.resS",
+      "DisplayName": "Copying resources.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/resources.assets.resS"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/resources.assets.resS"
+      ],
+      "DebugActionIndex": 62
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/resources.resource",
+      "DisplayName": "Copying resources.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/resources.resource"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/resources.resource"
+      ],
+      "DebugActionIndex": 63
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Resources/unity_builtin_extra",
+      "DisplayName": "Copying unity_builtin_extra",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Resources/unity_builtin_extra"
+      ],
+      "DebugActionIndex": 64
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/RuntimeInitializeOnLoads.json",
+      "DisplayName": "Copying RuntimeInitializeOnLoads.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/RuntimeInitializeOnLoads.json"
+      ],
+      "DebugActionIndex": 65
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/ScriptingAssemblies.json",
+      "DisplayName": "Copying ScriptingAssemblies.json",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/ScriptingAssemblies.json"
+      ],
+      "DebugActionIndex": 66
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/sharedassets0.assets",
+      "DisplayName": "Copying sharedassets0.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/sharedassets0.assets"
+      ],
+      "DebugActionIndex": 67
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/sharedassets0.assets.resS",
+      "DisplayName": "Copying sharedassets0.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/sharedassets0.assets.resS"
+      ],
+      "DebugActionIndex": 68
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/sharedassets0.resource",
+      "DisplayName": "Copying sharedassets0.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/sharedassets0.resource"
+      ],
+      "DebugActionIndex": 69
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/sharedassets1.assets",
+      "DisplayName": "Copying sharedassets1.assets",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/sharedassets1.assets"
+      ],
+      "DebugActionIndex": 70
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/sharedassets1.assets.resS",
+      "DisplayName": "Copying sharedassets1.assets.resS",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/sharedassets1.assets.resS"
+      ],
+      "DebugActionIndex": 71
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/sharedassets1.resource",
+      "DisplayName": "Copying sharedassets1.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.resource"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/sharedassets1.resource"
+      ],
+      "DebugActionIndex": 72
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
+      "DisplayName": "Writing boot.config_tyr4.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 83,
+      "PayloadLength": 21734,
+      "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
+      ],
+      "DebugActionIndex": 73
+    },
+    {
+      "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
+      "DisplayName": "AddBootConfigGUID boot",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2022.3.14f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\WinPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Bee;C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\boot.config_tyr4.info\"",
+      "Inputs": [
+        "Library/PlayerDataCache/Win64/Data/boot.config",
+        "Library/PlayerDataCache/Win64/Data/boot.config",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/1d/1d18030e3498e9929ef5938cdc249da1.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/25/25abd75e1bc13e4e4e308a2c5802a745.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/44/44137e49f52bc89d7b31634da78578bc.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/5e/5ede53490384f4ef494c6036bf1ef7d6.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/7e/7e9e0b6e4799e22d679abd10d53ff567.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/c1/c158fb012e26e14153b50ac7d7d6af6b.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/da/da3d34ae864a37e30cb88611e1d4e7dd.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/e0/e0343d7a8e5c3202706b6ad7116a44dc.vis",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.caw",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.ecm",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.iws.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rgb",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.rsc.sse",
+        "Library/PlayerDataCache/Win64/Data/GI/level1/ed/ed751f8cb52fd808bbcf5fc53835e1c4.vis",
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers",
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets",
+        "Library/PlayerDataCache/Win64/Data/globalgamemanagers.assets.resS",
+        "Library/PlayerDataCache/Win64/Data/level0",
+        "Library/PlayerDataCache/Win64/Data/level1",
+        "Library/PlayerDataCache/Win64/Data/level1.resS",
+        "Library/PlayerDataCache/Win64/Data/resources.assets",
+        "Library/PlayerDataCache/Win64/Data/resources.assets.resS",
+        "Library/PlayerDataCache/Win64/Data/resources.resource",
+        "Library/PlayerDataCache/Win64/Data/Resources/unity_builtin_extra",
+        "Library/PlayerDataCache/Win64/Data/RuntimeInitializeOnLoads.json",
+        "Library/PlayerDataCache/Win64/Data/ScriptingAssemblies.json",
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.assets.resS",
+        "Library/PlayerDataCache/Win64/Data/sharedassets0.resource",
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets",
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS",
+        "Library/PlayerDataCache/Win64/Data/sharedassets1.resource",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/MFPS.Internal.Enums.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Assets/MFPS/Content/Required/Photon/PhotonLibs/WebSocket/websocket-sharp.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll",
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Assets/MFPS/Content/Required/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll",
+        "Library/Bee/Player72ded9ff-inputdata.json",
+        "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll",
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+      ],
+      "Outputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
+      ],
+      "ToBuildDependencies": [
+        73
+      ],
+      "OverwriteOutputs": false,
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 74
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/boot.config",
+      "DisplayName": "Copying boot.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/boot.config"
+      ],
+      "ToBuildDependencies": [
+        74
+      ],
+      "DebugActionIndex": 75
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AIModule.dll",
+      "DisplayName": "Copying UnityEngine.AIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AIModule.dll"
+      ],
+      "DebugActionIndex": 76
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ARModule.dll",
+      "DisplayName": "Copying UnityEngine.ARModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ARModule.dll"
+      ],
+      "DebugActionIndex": 77
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AccessibilityModule.dll",
+      "DisplayName": "Copying UnityEngine.AccessibilityModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AccessibilityModule.dll"
+      ],
+      "DebugActionIndex": 78
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+      "DisplayName": "Copying UnityEngine.AndroidJNIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AndroidJNIModule.dll"
+      ],
+      "DebugActionIndex": 79
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AnimationModule.dll",
+      "DisplayName": "Copying UnityEngine.AnimationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AnimationModule.dll"
+      ],
+      "DebugActionIndex": 80
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AssetBundleModule.dll",
+      "DisplayName": "Copying UnityEngine.AssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AssetBundleModule.dll"
+      ],
+      "DebugActionIndex": 81
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AudioModule.dll",
+      "DisplayName": "Copying UnityEngine.AudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.AudioModule.dll"
+      ],
+      "DebugActionIndex": 82
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ClothModule.dll",
+      "DisplayName": "Copying UnityEngine.ClothModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClothModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ClothModule.dll"
+      ],
+      "DebugActionIndex": 83
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ClusterInputModule.dll",
+      "DisplayName": "Copying UnityEngine.ClusterInputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterInputModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ClusterInputModule.dll"
+      ],
+      "DebugActionIndex": 84
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+      "DisplayName": "Copying UnityEngine.ClusterRendererModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ClusterRendererModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ClusterRendererModule.dll"
+      ],
+      "DebugActionIndex": 85
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ContentLoadModule.dll",
+      "DisplayName": "Copying UnityEngine.ContentLoadModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ContentLoadModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ContentLoadModule.dll"
+      ],
+      "DebugActionIndex": 86
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.CoreModule.dll",
+      "DisplayName": "Copying UnityEngine.CoreModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.CoreModule.dll"
+      ],
+      "DebugActionIndex": 87
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.CrashReportingModule.dll",
+      "DisplayName": "Copying UnityEngine.CrashReportingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.CrashReportingModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.CrashReportingModule.dll"
+      ],
+      "DebugActionIndex": 88
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.DSPGraphModule.dll",
+      "DisplayName": "Copying UnityEngine.DSPGraphModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DSPGraphModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.DSPGraphModule.dll"
+      ],
+      "DebugActionIndex": 89
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.DirectorModule.dll",
+      "DisplayName": "Copying UnityEngine.DirectorModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.DirectorModule.dll"
+      ],
+      "DebugActionIndex": 90
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.GIModule.dll",
+      "DisplayName": "Copying UnityEngine.GIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GIModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.GIModule.dll"
+      ],
+      "DebugActionIndex": 91
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.GameCenterModule.dll",
+      "DisplayName": "Copying UnityEngine.GameCenterModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GameCenterModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.GameCenterModule.dll"
+      ],
+      "DebugActionIndex": 92
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.GridModule.dll",
+      "DisplayName": "Copying UnityEngine.GridModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.GridModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.GridModule.dll"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.HotReloadModule.dll",
+      "DisplayName": "Copying UnityEngine.HotReloadModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.HotReloadModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.HotReloadModule.dll"
+      ],
+      "DebugActionIndex": 94
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.IMGUIModule.dll",
+      "DisplayName": "Copying UnityEngine.IMGUIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.IMGUIModule.dll"
+      ],
+      "DebugActionIndex": 95
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ImageConversionModule.dll",
+      "DisplayName": "Copying UnityEngine.ImageConversionModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ImageConversionModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ImageConversionModule.dll"
+      ],
+      "DebugActionIndex": 96
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.InputLegacyModule.dll",
+      "DisplayName": "Copying UnityEngine.InputLegacyModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.InputLegacyModule.dll"
+      ],
+      "DebugActionIndex": 97
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.InputModule.dll",
+      "DisplayName": "Copying UnityEngine.InputModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.InputModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.InputModule.dll"
+      ],
+      "DebugActionIndex": 98
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+      "DisplayName": "Copying UnityEngine.JSONSerializeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.JSONSerializeModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.JSONSerializeModule.dll"
+      ],
+      "DebugActionIndex": 99
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.LocalizationModule.dll",
+      "DisplayName": "Copying UnityEngine.LocalizationModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.LocalizationModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.LocalizationModule.dll"
+      ],
+      "DebugActionIndex": 100
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.NVIDIAModule.dll",
+      "DisplayName": "Copying UnityEngine.NVIDIAModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.NVIDIAModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.NVIDIAModule.dll"
+      ],
+      "DebugActionIndex": 101
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+      "DisplayName": "Copying UnityEngine.ParticleSystemModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ParticleSystemModule.dll"
+      ],
+      "DebugActionIndex": 102
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+      "DisplayName": "Copying UnityEngine.PerformanceReportingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PerformanceReportingModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
+      ],
+      "DebugActionIndex": 103
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.Physics2DModule.dll",
+      "DisplayName": "Copying UnityEngine.Physics2DModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.Physics2DModule.dll"
+      ],
+      "DebugActionIndex": 104
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.PhysicsModule.dll",
+      "DisplayName": "Copying UnityEngine.PhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.PhysicsModule.dll"
+      ],
+      "DebugActionIndex": 105
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ProfilerModule.dll",
+      "DisplayName": "Copying UnityEngine.ProfilerModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ProfilerModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ProfilerModule.dll"
+      ],
+      "DebugActionIndex": 106
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.PropertiesModule.dll",
+      "DisplayName": "Copying UnityEngine.PropertiesModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.PropertiesModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.PropertiesModule.dll"
+      ],
+      "DebugActionIndex": 107
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "DisplayName": "Copying UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
+      ],
+      "DebugActionIndex": 108
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+      "DisplayName": "Copying UnityEngine.ScreenCaptureModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ScreenCaptureModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
+      ],
+      "DebugActionIndex": 109
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+      "DisplayName": "Copying UnityEngine.SharedInternalsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SharedInternalsModule.dll"
+      ],
+      "DebugActionIndex": 110
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+      "DisplayName": "Copying UnityEngine.SpriteMaskModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteMaskModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SpriteMaskModule.dll"
+      ],
+      "DebugActionIndex": 111
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+      "DisplayName": "Copying UnityEngine.SpriteShapeModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SpriteShapeModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SpriteShapeModule.dll"
+      ],
+      "DebugActionIndex": 112
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.StreamingModule.dll",
+      "DisplayName": "Copying UnityEngine.StreamingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.StreamingModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.StreamingModule.dll"
+      ],
+      "DebugActionIndex": 113
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SubstanceModule.dll",
+      "DisplayName": "Copying UnityEngine.SubstanceModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubstanceModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SubstanceModule.dll"
+      ],
+      "DebugActionIndex": 114
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SubsystemsModule.dll",
+      "DisplayName": "Copying UnityEngine.SubsystemsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.SubsystemsModule.dll"
+      ],
+      "DebugActionIndex": 115
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TLSModule.dll",
+      "DisplayName": "Copying UnityEngine.TLSModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TLSModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TLSModule.dll"
+      ],
+      "DebugActionIndex": 116
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TerrainModule.dll",
+      "DisplayName": "Copying UnityEngine.TerrainModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TerrainModule.dll"
+      ],
+      "DebugActionIndex": 117
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+      "DisplayName": "Copying UnityEngine.TerrainPhysicsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TerrainPhysicsModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
+      ],
+      "DebugActionIndex": 118
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+      "DisplayName": "Copying UnityEngine.TextCoreFontEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
+      ],
+      "DebugActionIndex": 119
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+      "DisplayName": "Copying UnityEngine.TextCoreTextEngineModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
+      ],
+      "DebugActionIndex": 120
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TextRenderingModule.dll",
+      "DisplayName": "Copying UnityEngine.TextRenderingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TextRenderingModule.dll"
+      ],
+      "DebugActionIndex": 121
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TilemapModule.dll",
+      "DisplayName": "Copying UnityEngine.TilemapModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.TilemapModule.dll"
+      ],
+      "DebugActionIndex": 122
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UIElementsModule.dll",
+      "DisplayName": "Copying UnityEngine.UIElementsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UIElementsModule.dll"
+      ],
+      "DebugActionIndex": 123
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UIModule.dll",
+      "DisplayName": "Copying UnityEngine.UIModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UIModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UIModule.dll"
+      ],
+      "DebugActionIndex": 124
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UmbraModule.dll",
+      "DisplayName": "Copying UnityEngine.UmbraModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UmbraModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UmbraModule.dll"
+      ],
+      "DebugActionIndex": 125
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityAnalyticsCommonModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
+      ],
+      "DebugActionIndex": 126
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityAnalyticsModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
+      ],
+      "DebugActionIndex": 127
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityConnectModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityConnectModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityConnectModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityConnectModule.dll"
+      ],
+      "DebugActionIndex": 128
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityCurlModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityCurlModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityCurlModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityCurlModule.dll"
+      ],
+      "DebugActionIndex": 129
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityTestProtocolModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityTestProtocolModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
+      ],
+      "DebugActionIndex": 130
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestAssetBundleModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
+      ],
+      "DebugActionIndex": 131
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestAudioModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
+      ],
+      "DebugActionIndex": 132
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
+      ],
+      "DebugActionIndex": 133
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestTextureModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
+      ],
+      "DebugActionIndex": 134
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+      "DisplayName": "Copying UnityEngine.UnityWebRequestWWWModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
+      ],
+      "DebugActionIndex": 135
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VFXModule.dll",
+      "DisplayName": "Copying UnityEngine.VFXModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VFXModule.dll"
+      ],
+      "DebugActionIndex": 136
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VRModule.dll",
+      "DisplayName": "Copying UnityEngine.VRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VRModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VRModule.dll"
+      ],
+      "DebugActionIndex": 137
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VehiclesModule.dll",
+      "DisplayName": "Copying UnityEngine.VehiclesModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VehiclesModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VehiclesModule.dll"
+      ],
+      "DebugActionIndex": 138
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VideoModule.dll",
+      "DisplayName": "Copying UnityEngine.VideoModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VideoModule.dll"
+      ],
+      "DebugActionIndex": 139
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+      "DisplayName": "Copying UnityEngine.VirtualTexturingModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.VirtualTexturingModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
+      ],
+      "DebugActionIndex": 140
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.WindModule.dll",
+      "DisplayName": "Copying UnityEngine.WindModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.WindModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.WindModule.dll"
+      ],
+      "DebugActionIndex": 141
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.XRModule.dll",
+      "DisplayName": "Copying UnityEngine.XRModule.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.XRModule.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.XRModule.dll"
+      ],
+      "DebugActionIndex": 142
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.dll",
+      "DisplayName": "Copying UnityEngine.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.dll"
+      ],
+      "DebugActionIndex": 143
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Assembly-CSharp.dll",
+      "DisplayName": "Copying Assembly-CSharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Assembly-CSharp.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Assembly-CSharp.dll"
+      ],
+      "DebugActionIndex": 144
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/PhotonUnityNetworking.dll",
+      "DisplayName": "Copying PhotonUnityNetworking.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/PhotonUnityNetworking.dll"
+      ],
+      "DebugActionIndex": 145
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/MFPS.Internal.Enums.dll",
+      "DisplayName": "Copying MFPS.Internal.Enums.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/MFPS.Internal.Enums.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/MFPS.Internal.Enums.dll"
+      ],
+      "DebugActionIndex": 146
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/PhotonRealtime.dll",
+      "DisplayName": "Copying PhotonRealtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonRealtime.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/PhotonRealtime.dll"
+      ],
+      "DebugActionIndex": 147
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.Core.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Core.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.Core.dll"
+      ],
+      "DebugActionIndex": 148
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UI.dll",
+      "DisplayName": "Copying UnityEngine.UI.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/UnityEngine.UI.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/UnityEngine.UI.dll"
+      ],
+      "DebugActionIndex": 149
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/PhotonUnityNetworking.Utilities.dll",
+      "DisplayName": "Copying PhotonUnityNetworking.Utilities.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonUnityNetworking.Utilities.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/PhotonUnityNetworking.Utilities.dll"
+      ],
+      "DebugActionIndex": 150
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.Flow.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Flow.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.Flow.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.Flow.dll"
+      ],
+      "DebugActionIndex": 151
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Unity.Timeline.dll",
+      "DisplayName": "Copying Unity.Timeline.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.Timeline.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Unity.Timeline.dll"
+      ],
+      "DebugActionIndex": 152
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Unity.TextMeshPro.dll",
+      "DisplayName": "Copying Unity.TextMeshPro.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Unity.TextMeshPro.dll"
+      ],
+      "DebugActionIndex": 153
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.State.dll",
+      "DisplayName": "Copying Unity.VisualScripting.State.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/Unity.VisualScripting.State.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.State.dll"
+      ],
+      "DebugActionIndex": 154
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/PhotonChat.dll",
+      "DisplayName": "Copying PhotonChat.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/PlayerScriptAssemblies/PhotonChat.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/PhotonChat.dll"
+      ],
+      "DebugActionIndex": 155
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/websocket-sharp.dll",
+      "DisplayName": "Copying websocket-sharp.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Assets/MFPS/Content/Required/Photon/PhotonLibs/WebSocket/websocket-sharp.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/websocket-sharp.dll"
+      ],
+      "DebugActionIndex": 156
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+      "DisplayName": "Copying Unity.VisualScripting.Antlr3.Runtime.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/PackageCache/com.unity.visualscripting@1.9.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
+      ],
+      "DebugActionIndex": 157
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Photon3Unity3D.dll",
+      "DisplayName": "Copying Photon3Unity3D.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Assets/MFPS/Content/Required/Photon/PhotonLibs/netstandard2.0/Photon3Unity3D.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Photon3Unity3D.dll"
+      ],
+      "DebugActionIndex": 158
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/netstandard.dll",
+      "DisplayName": "Copying netstandard.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Facades/netstandard.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/netstandard.dll"
+      ],
+      "DebugActionIndex": 159
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/Mono.Security.dll",
+      "DisplayName": "Copying Mono.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/Mono.Security.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/Mono.Security.dll"
+      ],
+      "DebugActionIndex": 160
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.ComponentModel.Composition.dll",
+      "DisplayName": "Copying System.ComponentModel.Composition.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ComponentModel.Composition.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.ComponentModel.Composition.dll"
+      ],
+      "DebugActionIndex": 161
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Configuration.dll",
+      "DisplayName": "Copying System.Configuration.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Configuration.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Configuration.dll"
+      ],
+      "DebugActionIndex": 162
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Core.dll",
+      "DisplayName": "Copying System.Core.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Core.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Core.dll"
+      ],
+      "DebugActionIndex": 163
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Data.DataSetExtensions.dll",
+      "DisplayName": "Copying System.Data.DataSetExtensions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.DataSetExtensions.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Data.DataSetExtensions.dll"
+      ],
+      "DebugActionIndex": 164
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Data.dll",
+      "DisplayName": "Copying System.Data.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Data.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Data.dll"
+      ],
+      "DebugActionIndex": 165
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Drawing.dll",
+      "DisplayName": "Copying System.Drawing.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Drawing.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Drawing.dll"
+      ],
+      "DebugActionIndex": 166
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.EnterpriseServices.dll",
+      "DisplayName": "Copying System.EnterpriseServices.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.EnterpriseServices.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.EnterpriseServices.dll"
+      ],
+      "DebugActionIndex": 167
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.IO.Compression.FileSystem.dll",
+      "DisplayName": "Copying System.IO.Compression.FileSystem.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.FileSystem.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.IO.Compression.FileSystem.dll"
+      ],
+      "DebugActionIndex": 168
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.IO.Compression.dll",
+      "DisplayName": "Copying System.IO.Compression.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.IO.Compression.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.IO.Compression.dll"
+      ],
+      "DebugActionIndex": 169
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Net.Http.dll",
+      "DisplayName": "Copying System.Net.Http.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Net.Http.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Net.Http.dll"
+      ],
+      "DebugActionIndex": 170
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Numerics.dll",
+      "DisplayName": "Copying System.Numerics.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Numerics.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Numerics.dll"
+      ],
+      "DebugActionIndex": 171
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Runtime.Serialization.dll",
+      "DisplayName": "Copying System.Runtime.Serialization.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Runtime.Serialization.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Runtime.Serialization.dll"
+      ],
+      "DebugActionIndex": 172
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Security.dll",
+      "DisplayName": "Copying System.Security.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Security.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Security.dll"
+      ],
+      "DebugActionIndex": 173
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.ServiceModel.Internals.dll",
+      "DisplayName": "Copying System.ServiceModel.Internals.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.ServiceModel.Internals.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.ServiceModel.Internals.dll"
+      ],
+      "DebugActionIndex": 174
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Transactions.dll",
+      "DisplayName": "Copying System.Transactions.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Transactions.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Transactions.dll"
+      ],
+      "DebugActionIndex": 175
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Xml.Linq.dll",
+      "DisplayName": "Copying System.Xml.Linq.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.Linq.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Xml.Linq.dll"
+      ],
+      "DebugActionIndex": 176
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.Xml.dll",
+      "DisplayName": "Copying System.Xml.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.Xml.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.Xml.dll"
+      ],
+      "DebugActionIndex": 177
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/System.dll",
+      "DisplayName": "Copying System.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/System.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/System.dll"
+      ],
+      "DebugActionIndex": 178
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Managed/mscorlib.dll",
+      "DisplayName": "Copying mscorlib.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32/mscorlib.dll"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Managed/mscorlib.dll"
+      ],
+      "DebugActionIndex": 179
+    },
+    {
+      "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
+      "DisplayName": "Writing app.info",
+      "ActionType": "WriteFile",
+      "PayloadOffset": 21906,
+      "PayloadLength": 40,
+      "PayloadDebugContentSnippet": "DefaultCompany\nThực tập ch",
+      "Inputs": [],
+      "Outputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "DebugActionIndex": 180
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/app.info",
+      "DisplayName": "Copying app.info",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/app.info"
+      ],
+      "ToBuildDependencies": [
+        180
+      ],
+      "DebugActionIndex": 181
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu_Data/Resources/unity default resources",
+      "DisplayName": "Copying unity default resources",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources/unity default resources"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu_Data/Resources/unity default resources"
+      ],
+      "DebugActionIndex": 182
+    },
+    {
+      "Annotation": "CopyFiles Build/Thực tập chuyên sâu.exe",
+      "DisplayName": "Copying Thực tập chuyên sâu.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Temp/StagingArea/WindowsPlayer.exe"
+      ],
+      "Outputs": [
+        "Build/Thực tập chuyên sâu.exe"
+      ],
+      "DebugActionIndex": 183
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+      "DisplayName": "Copying mono-2.0-bdwgc.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
+      ],
+      "DebugActionIndex": 184
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+      "DisplayName": "Copying MonoPosixHelper.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
+      ],
+      "DebugActionIndex": 185
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+      "DisplayName": "Copying Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 186
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+      "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 187
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/machine.config",
+      "DisplayName": "Copying machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/2.0/machine.config"
+      ],
+      "DebugActionIndex": 188
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/settings.map",
+      "DisplayName": "Copying settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/2.0/settings.map"
+      ],
+      "DebugActionIndex": 189
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/2.0/web.config",
+      "DisplayName": "Copying web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/2.0/web.config"
+      ],
+      "DebugActionIndex": 190
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+      "DisplayName": "Copying Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 191
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+      "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 192
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/machine.config",
+      "DisplayName": "Copying machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.0/machine.config"
+      ],
+      "DebugActionIndex": 193
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/settings.map",
+      "DisplayName": "Copying settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.0/settings.map"
+      ],
+      "DebugActionIndex": 194
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.0/web.config",
+      "DisplayName": "Copying web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.0/web.config"
+      ],
+      "DebugActionIndex": 195
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+      "DisplayName": "Copying Compat.browser",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
+      ],
+      "DebugActionIndex": 196
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+      "DisplayName": "Copying DefaultWsdlHelpGenerator.aspx",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
+      ],
+      "DebugActionIndex": 197
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/machine.config",
+      "DisplayName": "Copying machine.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.5/machine.config"
+      ],
+      "DebugActionIndex": 198
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/settings.map",
+      "DisplayName": "Copying settings.map",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.5/settings.map"
+      ],
+      "DebugActionIndex": 199
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/4.5/web.config",
+      "DisplayName": "Copying web.config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/4.5/web.config"
+      ],
+      "DebugActionIndex": 200
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/browscap.ini",
+      "DisplayName": "Copying browscap.ini",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/browscap.ini"
+      ],
+      "DebugActionIndex": 201
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/config",
+      "DisplayName": "Copying config",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/config"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/config"
+      ],
+      "DebugActionIndex": 202
+    },
+    {
+      "Annotation": "CopyFiles Build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
+      "DisplayName": "Copying config.xml",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "Outputs": [
+        "Build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
+      ],
+      "DebugActionIndex": 203
+    },
+    {
+      "Annotation": "CopyFiles Build/UnityCrashHandler64.exe",
+      "DisplayName": "Copying UnityCrashHandler64.exe",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityCrashHandler64.exe"
+      ],
+      "Outputs": [
+        "Build/UnityCrashHandler64.exe"
+      ],
+      "DebugActionIndex": 204
+    },
+    {
+      "Annotation": "CopyFiles Build/UnityPlayer.dll",
+      "DisplayName": "Copying UnityPlayer.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/UnityPlayer.dll"
+      ],
+      "Outputs": [
+        "Build/UnityPlayer.dll"
+      ],
+      "DebugActionIndex": 205
+    },
+    {
+      "Annotation": "Player",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 206
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/WinPlayerBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/BeeLocalCacheTool.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/Player72ded9ff-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "Build/GameAssembly.dll"
+    },
+    {
+      "File": "Build/Thực tập chuyên sâu.sln"
+    },
+    {
+      "File": "Build/UnityCommon.props"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono"
+    },
+    {
+      "File": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources"
+    },
+    {
+      "File": "Library/Bee/Player72ded9ff-inputdata.json"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "Assets/StreamingAssets",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport"
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources",
+      "Recurse": 1
+    },
+    {
+      "Path": "C:/Program Files/Unity/Hub/Editor/2022.3.14f1/Editor/Data/Tools/BuildPipeline"
+    },
+    {
+      "Path": "Library/PlayerDataCache/Win64/Data",
+      "Recurse": 1
+    },
+    {
+      "Path": "Temp/StagingArea/Data/Plugins"
+    },
+    {
+      "Path": "Temp/StagingArea/Data/UnitySubsystems",
+      "Recurse": 1
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".winmd",
+    ".pdb",
+    ".cpp",
+    ".cc",
+    ".c",
+    ".hpp",
+    ".h",
+    ".json",
+    ".xml",
+    ".txt",
+    ".config"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "Player": 206
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/Player72ded9ff.dag.json",
+  "PayloadsFile": "C:/Users/Admin/UnityEngineProjects/Thực tập chuyên sâu/Library/Bee/Player72ded9ff.dag.payloads",
+  "RelativePathToRoot": "../.."
+}

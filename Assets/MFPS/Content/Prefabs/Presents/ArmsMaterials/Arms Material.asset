@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 832f39be4075c96438aa85538297cfc2, type: 3}
+  m_Name: Arms Material
+  m_EditorClassIdentifier: 
+  materialColorPropertyName: _Color
+  ArmsMaterials:
+  - Material: {fileID: 2100000, guid: a69ba32ccac292140aaaa7bd18534bf0, type: 2}
+    Team1Texture: {fileID: 2800000, guid: 7c06411628e85c749af279a21eb08f1c, type: 3}
+    Team2Texture: {fileID: 2800000, guid: 03b2df2be630223439ffa24c82524aef, type: 3}
+  - Material: {fileID: 2100000, guid: b0747961e9487294fab8d54e95c09e69, type: 2}
+    Team1Texture: {fileID: 2800000, guid: 574197d78d69a014fbac0553fe67e94f, type: 3}
+    Team2Texture: {fileID: 2800000, guid: e6f100d6e70bb884794f24a1799e6fba, type: 3}

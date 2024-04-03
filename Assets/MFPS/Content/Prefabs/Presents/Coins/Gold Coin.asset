@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c5bc02115345fd4082dfebae8fa8c0d, type: 3}
+  m_Name: Gold Coin
+  m_EditorClassIdentifier: 
+  CoinName: Gold Coin
+  Acronym: GC
+  CoinValue: 1
+  InitialCoins: 0
+  Description: This coin can be adquire by purchasing it on the game shop.
+  CoinIcon: {fileID: 21300000, guid: 7bf96877bd9ef3e4ab5e8ec818241629, type: 3}

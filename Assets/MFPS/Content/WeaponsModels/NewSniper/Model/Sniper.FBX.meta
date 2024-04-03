@@ -1,0 +1,306 @@
+fileFormatVersion: 2
+guid: 8eaac5723a03b544daa098a047580adb
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Barrel
+  - first:
+      1: 100002
+    second: Lewer
+  - first:
+      1: 100004
+    second: //RootNode
+  - first:
+      1: 100006
+    second: Magazine
+  - first:
+      1: 100008
+    second: Scope
+  - first:
+      1: 100010
+    second: ScopeGlass
+  - first:
+      1: 100012
+    second: Silencer
+  - first:
+      1: 100014
+    second: Stock Ris Trigger
+  - first:
+      1: 100016
+    second: Zatvor02_Bolt001
+  - first:
+      1: 100018
+    second: Bold
+  - first:
+      1: 100020
+    second: Glass
+  - first:
+      1: 100022
+    second: Trigger
+  - first:
+      4: 400000
+    second: Barrel
+  - first:
+      4: 400002
+    second: Lewer
+  - first:
+      4: 400004
+    second: //RootNode
+  - first:
+      4: 400006
+    second: Magazine
+  - first:
+      4: 400008
+    second: Scope
+  - first:
+      4: 400010
+    second: ScopeGlass
+  - first:
+      4: 400012
+    second: Silencer
+  - first:
+      4: 400014
+    second: Stock Ris Trigger
+  - first:
+      4: 400016
+    second: Zatvor02_Bolt001
+  - first:
+      4: 400018
+    second: Bold
+  - first:
+      4: 400020
+    second: Glass
+  - first:
+      4: 400022
+    second: Trigger
+  - first:
+      23: 2300000
+    second: Barrel
+  - first:
+      23: 2300002
+    second: Lewer
+  - first:
+      23: 2300004
+    second: Magazine
+  - first:
+      23: 2300006
+    second: Scope
+  - first:
+      23: 2300008
+    second: ScopeGlass
+  - first:
+      23: 2300010
+    second: Silencer
+  - first:
+      23: 2300012
+    second: Stock Ris Trigger
+  - first:
+      23: 2300014
+    second: Zatvor02_Bolt001
+  - first:
+      23: 2300016
+    second: Bold
+  - first:
+      23: 2300018
+    second: Glass
+  - first:
+      23: 2300020
+    second: Trigger
+  - first:
+      33: 3300000
+    second: Barrel
+  - first:
+      33: 3300002
+    second: Lewer
+  - first:
+      33: 3300004
+    second: Magazine
+  - first:
+      33: 3300006
+    second: Scope
+  - first:
+      33: 3300008
+    second: ScopeGlass
+  - first:
+      33: 3300010
+    second: Silencer
+  - first:
+      33: 3300012
+    second: Stock Ris Trigger
+  - first:
+      33: 3300014
+    second: Zatvor02_Bolt001
+  - first:
+      33: 3300016
+    second: Bold
+  - first:
+      33: 3300018
+    second: Glass
+  - first:
+      33: 3300020
+    second: Trigger
+  - first:
+      43: 4300000
+    second: Barrel
+  - first:
+      43: 4300002
+    second: Silencer
+  - first:
+      43: 4300004
+    second: Zatvor02_Bolt001
+  - first:
+      43: 4300006
+    second: Lewer
+  - first:
+      43: 4300008
+    second: Scope
+  - first:
+      43: 4300010
+    second: ScopeGlass
+  - first:
+      43: 4300012
+    second: Magazine
+  - first:
+      43: 4300014
+    second: Stock Ris Trigger
+  - first:
+      43: 4300016
+    second: Bold
+  - first:
+      43: 4300018
+    second: Glass
+  - first:
+      43: 4300020
+    second: Trigger
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel
+    second: {fileID: 2100000, guid: 0292ee2de7660a647bee9f12e39797b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: GlassMat
+    second: {fileID: 2100000, guid: 92ed8a76adf52ca47b0017cb1b1639b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lewer
+    second: {fileID: 2100000, guid: ab536b271d2bd8143af22acee81b8cf3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Magazine
+    second: {fileID: 2100000, guid: 6e1e1adae6d0c43499aac08d3f46a8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rifle
+    second: {fileID: 2100000, guid: 433fe5da84f14b944bffb40373729b59, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Scope
+    second: {fileID: 2100000, guid: 9092bdb67a67af24b89eba4cdba7500c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zatvor
+    second: {fileID: 2100000, guid: 9a21824993b05f6488e51062b2ef6408, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 0
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

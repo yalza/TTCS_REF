@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1505171487832858}
+  m_IsPrefabParent: 1
+--- !u!1 &1505171487832858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4844088991340324}
+  - component: {fileID: 114540858508667146}
+  m_Layer: 0
+  m_Name: PhotonNetworkStats
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4844088991340324
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505171487832858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 72.37643, y: -4.1809344, z: -78.441795}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114540858508667146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505171487832858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8c482853e25694cbfcff96306b52ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpdateRate: 1
+  m_LogType: 1
+  LogTrafficStats: 1
+  m_GUIArea:
+    serializedVersion: 2
+    x: 155
+    y: 10
+    width: 500
+    height: 500
+  ArrowIcon: {fileID: 2800000, guid: 977f7f8c5b86e604ca1fbfac10fcaccb, type: 3}
+  ArrowIconUp: {fileID: 2800000, guid: 569dcfda0bfcad94cb73e2fcd988300c, type: 3}
+  m_Style:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 0.503}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 11
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  ValuesList:
+  - Variable: Rtt(variance)
+    Value: 35(18).
+  - Variable: Ms since last receive
+    Value: 719.
+  - Variable: Stats elapsed
+    Value: 2sec.
+  - Variable: Longest delta between Send
+    Value: 79ms
+  - Variable: Dispatch
+    Value: 47ms.
+  - Variable: Longest callback OnEv
+    Value: 0=0ms
+  - Variable: OnResp
+    Value: 0=16ms.
+  - Variable: Calls of Send
+    Value: 53
+  - Variable: Dispatch
+    Value: 181.
+  - Variable: TotalPacketBytes
+    Value: 778
+  - Variable: TotalCommandBytes
+    Value: 694
+  - Variable: TotalPacketCount
+    Value: 7
+  - Variable: TotalCommandsInPackets
+    Value: 14
+  - Variable: TotalPacketBytes
+    Value: 785
+  - Variable: TotalCommandBytes
+    Value: 689
+  - Variable: TotalPacketCount
+    Value: 8
+  - Variable: TotalCommandsInPackets
+    Value: 14

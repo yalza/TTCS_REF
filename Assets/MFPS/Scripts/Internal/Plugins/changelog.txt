@@ -1,0 +1,53 @@
+### -1.9.3
+
+# Improvements
+
+-IMPROVED: Ladder System, easier to use and more robust.
+-IMPROVED: Added option to easily reset saved input mappeds to fix the issue with new inputs not appearing in the binding list.
+-IMPROVED: The MFPS Manager window 'Weapon' tab, now is easier to modify the weapons properties with it.
+-IMPROVED: Enhanced the ladder third-person climbing animation.
+-IMPROVED: Add new MFPS custom mods editor window (MFPS > Store > Custom Mods), show available MFPS mods not available as addons.
+-IMPROVED: Now you can set to hide the weapons when the player is climbing a ladder.
+-IMPROVED: Add editor action in MFPS > Actions > Delete Player Prefs, to reset all the PlayerPrefs to they default values.
+-IMPROVED: Player movement on uneven surfaces and slopes.
+-IMPROVED: Added a forward direction gizmo for the AI Weapons to make it easier to orient the weapons in the bot character's hands.
+-IMPROVED: Better grenade throw direction calculation, now is possible to define the throw upward force from the inspector too.
+-IMPROVED: Support for the input binding list with the Localization addon.
+-IMPROVED: Add a new Game Modes tab in the MFPS Manager window, to easily edit the game modes parameters in the editor.
+-IMPROVED: Now the player damage screen opacity is calculated by the damage amount received instead of a fixed value.
+
+#Fixes
+
+-FIX: Alive bots stay still in new rounds and do not respawn in the team area.
+-FIX: Bullet doesn't detect custom damageable colliders unless they have the tag 'Metal'.
+-FIX: FPWeapon keeps rotating when the game is paused and the cursor is not focus on the game window.
+-FIX: Player admin or moderator tag only shows if the player is in a clan.
+-FIX: Push To Talk option was not working on mobile devices.
+-FIX: Regression the FPWeapon fire sound volume, now changing the volume in the attached AudioSource will also affect the fire sound.
+-FIX: Issue introduced in version 1.9.2 that cause the player keep moving when a match finish.
+-FIX: Players can climb ladders infinitely if the ladders triggers aren't properly set up.
+-FIX: Changes in the player class loadout made through the MFPS Manager Window get reset after a script compilation or editor restart.
+-FIX: Legs IK issue that happens when preview the player IK in the editor and not properly close the Animation runner window.
+-FIX: bl_Input.GetButtonDown() did always return false if was called multiple times in the same frame.
+-FIX: The first friend added or when there's only 1 friend added it doesn't show up in the friend list.
+-FIX: Games screen goes black when change the resolution or open the game settings on WebGL (Screen Mode setting is not supported on WebGL).
+-FIX: Changing the GunID of a Knife in the inspector of bl_Gun.cs changes the weapon type in the GameData causing errors in runtime.
+-FIX: Applying the changes in the in-game settings menu causes the screen to stretch out horizontally on mobile devices.
+-FIX: The grenades were being thrown with a left offset to where the player was aiming.
+-FIX: Changing the weapon fire rate in runtime causes to play the wrong third-person weapon fire animation.
+-FIX: Changing the weapon fire rate in runtime causes to change the default Weapon Type of that weapon in GameData.
+-FIX: Bots do not detect players after a respawn in some instances.
+-FIX: Weapons always start with the default fire rate type, independent of the weapon fire rate rules set in the inspector.
+-FIX: Local player sometimes doesn't jump after pressing the jump key when the game fps is low.
+-FIX: Round keep restarting when the first round is finished and countdown on start is active on round based game modes.
+-FIX: Teammate name-plates appear in the sky position when the local player spawn far from them.
+-FIX: Errors after enable Photon Voice 2 version 2.25 or up.
+-FIX: Kill a teammate when friendly fire is activate increase the player score.
+-FIX: Shotguns using Animator component gets stuck when trying to fire while is reloading.
+
+# New Addons:
+
+- FP Legs: Integrates first-person legs and first-person body character shadow with a few clicks to any player prefab without third-party tools.
+- Game News: Display notes, news, events, etc. in the game lobby and update them without updating the game.
+- Daily Reward: Simply yet powerful system to reward your players with a daily reward.
+- Spawn Selection: Integrate a spawn selection menu to allow players to choose their spawn point before the match starts, similar to Battlefield games.

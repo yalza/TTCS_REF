@@ -1,0 +1,14 @@
+MFPS comes with an Install wizard window that should be prompted automatically after you import the package,
+if for any reason the install window did not appear or you accidentally close it you can open it again through the Unity editor navigation menu: MFPS -> Import.
+
+Once the install window is shown simply follow the indications of the installer.
+
+If you can't see the Unity Editor MFPS navigation menu most likely because you have some compilation errors, check the Editor console and fix the errors then the menu will appear.
+
+Need help?
+You can reach us in any of these ways:
+
+Email: support@lovattostudio.com
+Support Ticket: https://www.lovattostudio.com/support/
+Forum: https://www.lovattostudio.com/forum/
+Discord: https://discord.gg/8zF5B4G

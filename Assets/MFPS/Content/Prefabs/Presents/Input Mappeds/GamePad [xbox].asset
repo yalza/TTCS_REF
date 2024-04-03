@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 202df628334fb2a4daf60a54e9de6749, type: 3}
+  m_Name: GamePad [xbox]
+  m_EditorClassIdentifier: 
+  inputType: 1
+  mapped:
+    ButtonMap:
+    - KeyName: Fire
+      Description: Fire
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: RT
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Aim
+      Description: Aiming
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: LT
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Reload
+      Description: Reload
+      PrimaryKey: 332
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Run
+      Description: Sprint
+      PrimaryKey: 338
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Jump
+      Description: Jump
+      PrimaryKey: 330
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Crouch
+      Description: Crouch
+      PrimaryKey: 339
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Interact
+      Description: Interaction
+      PrimaryKey: 331
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: Weapon1
+      Description: Weapon Slot 1
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Weapon2
+      Description: Weapon Slot 2
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Weapon3
+      Description: Weapon Slot 3
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: Weapon4
+      Description: Weapon Slot 4
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: NextWeapon
+      Description: Next Weapon
+      PrimaryKey: 334
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: PreviousWeapon
+      Description: Previous Weapon
+      PrimaryKey: 335
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: ThrowItem
+      Description: Throw Item
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: DPH
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: FireType
+      Description: Change Fire Rate
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: DPV
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: 1
+    - KeyName: FastKnife
+      Description: Fast Knife
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: DPV
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: TeamChat
+      Description: Team Chat
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: QuickNade
+      Description: Quick Nade
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 1
+      AlternativeIsAxis: 0
+      AxisValue: -1
+    - KeyName: Scoreboard
+      Description: Scoreboard
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: GeneralChat
+      Description: Chat
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: SwitchView
+      Description: Change View
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0
+    - KeyName: VoiceTalk
+      Description: Push To Talk
+      PrimaryKey: 0
+      AlternativeKey: 0
+      PrimaryAxis: 
+      AlternativeAxis: 
+      PrimaryIsAxis: 0
+      AlternativeIsAxis: 0
+      AxisValue: 0

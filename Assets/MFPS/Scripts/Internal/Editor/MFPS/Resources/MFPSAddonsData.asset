@@ -1,0 +1,403 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f925aecb906ea947a333a1c249d8198, type: 3}
+  m_Name: MFPSAddonsData
+  m_EditorClassIdentifier: 
+  Addons:
+  - NiceName: Demolition
+    KeyName: DM
+    LastVersion: 1.2.4
+    Info: {fileID: 11400000, guid: e053076efda9ac944b5fe678dcce64b1, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0.8
+    FolderName: GameModes/Demolition
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Clan System
+    KeyName: CLANS
+    LastVersion: 2.0.2
+    Info: {fileID: 11400000, guid: 79a583688dd10414e8524072d3cb71fc, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.1
+    FolderName: ClanSystem
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Class Customization
+    KeyName: CLASS_CUSTOMIZER
+    LastVersion: 1.8.0
+    Info: {fileID: 11400000, guid: 72f56d0a2a48bc24f8074e8cd7fbfbe2, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.6
+    FolderName: ClassCustomization
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Customizer
+    KeyName: CUSTOMIZER
+    LastVersion: 2.0.2
+    Info: {fileID: 11400000, guid: c909a4df55136e54eb79cba262d79cf2, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.5.3
+    FolderName: Customizer
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Domination
+    KeyName: CP
+    LastVersion: 1.5.0
+    Info: {fileID: 11400000, guid: f211348ca0ecf614eb958d2ab3fa5270, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.4
+    FolderName: GameModes/CovertPoint
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Elimination
+    KeyName: ELIM
+    LastVersion: 1.2.1
+    Info: {fileID: 11400000, guid: 51c03728dbae45844bd3ba2d0d77d791, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0.1
+    FolderName: GameModes/Elimination
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Mobile Control
+    KeyName: MFPSM
+    LastVersion: 1.5.1
+    Info: {fileID: 11400000, guid: d927b8ba34a2e834eaa167f2e32f00fc, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.2.8
+    FolderName: FPSMobileControl
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Third Person View
+    KeyName: MFPSTPV
+    LastVersion: 1.1.0
+    Info: {fileID: 11400000, guid: 4ee1e5441bc106749b5240537ba933d0, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0.4
+    FolderName: ThirdPersonView
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Gun Race
+    KeyName: GR
+    LastVersion: 1.3.1
+    Info: {fileID: 11400000, guid: 7111878755bd5de4996ebdafdb88b01d, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.1.8
+    FolderName: GameModes/GunRace
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Kill Streaks
+    KeyName: KSA
+    LastVersion: 1.1.4
+    Info: {fileID: 11400000, guid: e4a292d370365434ea5346210a9f2844, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.7
+    FolderName: Kill Streaks
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Kill Streak Notifier
+    KeyName: KILL_STREAK
+    LastVersion: 1.4.1
+    Info: {fileID: 11400000, guid: 05face168d9415e42a87185e8c017457, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.3.8
+    FolderName: KillNotifier
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Level Manager
+    KeyName: LM
+    LastVersion: 1.5.1
+    Info: {fileID: 11400000, guid: 2f928140c6f8a9249a4607ef8a2662dc, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.5.0
+    FolderName: LevelSystem
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Localization
+    KeyName: LOCALIZATION
+    LastVersion: 1.2.5
+    Info: {fileID: 11400000, guid: 2842a9d9f5e9fe14cb0e3cb7e8150826, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0.9
+    FolderName: Localization
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Player Selector
+    KeyName: PSELECTOR
+    LastVersion: 1.7.3
+    Info: {fileID: 11400000, guid: df6c94ac0c5e03c418f6e97d1d17d080, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.5
+    FolderName: PlayerSelector
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Scope Pro
+    KeyName: 
+    LastVersion: 1.3.0
+    Info: {fileID: 11400000, guid: aec66f7f294caee4d9b378b402beca48, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: ScopePro
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Shop
+    KeyName: SHOP
+    LastVersion: 1.2.3
+    Info: {fileID: 11400000, guid: 96c766e892b9d2541a301fc023d51002, type: 2}
+    CurrentVersion: 1.2.2
+    MinVersion: 1.2
+    FolderName: Shop
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Unity IAP for Shop
+    KeyName: SHOP_UIAP
+    LastVersion: 1.0.4
+    Info: {fileID: 11400000, guid: 90f5dc808aa135f47bed8c074c856e7e, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Shop/Payments/UnityIAP
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Paypal for Shop
+    KeyName: SHOP_PAYPAL
+    LastVersion: 1.0.5
+    Info: {fileID: 11400000, guid: 4eaf98a397b93b64784056fc51f805f5, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Shop/Payments/Paypal
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: UCompass Bar
+    KeyName: 
+    LastVersion: 1.1.8
+    Info: {fileID: 11400000, guid: 5e52f180c65a1f04b95fff242237f867, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.1
+    FolderName: UCompassBar
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Mini Map
+    KeyName: UMM
+    LastVersion: 2.4.2
+    Info: {fileID: 11400000, guid: 5a4a3d28ac74d4d4bbc0829dd2b5eb37, type: 2}
+    CurrentVersion: --
+    MinVersion: 2.3
+    FolderName: UGUIMiniMap
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: ULogin Pro
+    KeyName: ULSP
+    LastVersion: 2.3.3
+    Info: {fileID: 11400000, guid: 2a81664e1302fce4cbde5078207b1a44, type: 2}
+    CurrentVersion: 2.3.3
+    MinVersion: 1.9.47
+    FolderName: ULoginSystemPro
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Weapon Pack #1
+    KeyName: 
+    LastVersion: 1.3.1
+    Info: {fileID: 11400000, guid: 72b58cf0da0a2a2479b73d553422c0b3, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.2
+    FolderName: WeaponPack[1]
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Weapon Pack #2
+    KeyName: 
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: 6baa9426e8419164fa8d9fa10a038d6f, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: WeaponPack[2]
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Waiting Room Pro
+    KeyName: MFPSWRP
+    LastVersion: 1.1.1
+    Info: {fileID: 11400000, guid: 6f322fe2b63dd30408f76f01bcf5a247, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0.8
+    FolderName: WaitingRoomPro
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: 'Vehicle: Car'
+    KeyName: MFPS_VEHICLE
+    LastVersion: 1.1.4
+    Info: {fileID: 11400000, guid: ed0514c2a9be3514cbb3f99fa88032d8, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Vehicles/Cars
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Facebook Login
+    KeyName: 
+    LastVersion: 1.0
+    Info: {fileID: 11400000, guid: 4c1060a550f253e489a67ed2f805a0b3, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: ULoginSystemPro/Authenticators/Facebook
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Google Login
+    KeyName: 
+    LastVersion: 1.0.2
+    Info: {fileID: 11400000, guid: 1a9b84a4aa7df4f43b260d25bb304a38, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: ULoginSystemPro/Authenticators/Google
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Player Pack #1
+    KeyName: 
+    LastVersion: 1.1.0
+    Info: {fileID: 11400000, guid: 3866c5bd30fe0e544a2e12cc9af930e4, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: PlayerPacks/Pack[1]
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Game Resume Pro
+    KeyName: 
+    LastVersion: 1.1.3
+    Info: {fileID: 11400000, guid: e1af3132e5f0f0547ae63f54397a2dd2, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: GameResumePro
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Floating Text
+    KeyName: FT
+    LastVersion: 1.0
+    Info: {fileID: 11400000, guid: f3f9aff318709814bb9f6e49b458b1fc, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: FloatingText
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Layout Customizer
+    KeyName: LCZ
+    LastVersion: 1.0
+    Info: {fileID: 11400000, guid: 86252ec406a7e2043b5ad0f91949a4d0, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: UILayoutCustomizer
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Discord Login
+    KeyName: 
+    LastVersion: 1.0
+    Info: {fileID: 11400000, guid: 7b384ade1d98f954fa9929a39fdcba68, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.8.2
+    FolderName: ULoginSystemPro/Authenticators/Discord
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Emblems and Playercards
+    KeyName: EACC
+    LastVersion: 1.0.5
+    Info: {fileID: 11400000, guid: b5169feb49c52e942b19a36dd7084ed6, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.9
+    FolderName: EmblemsAndCards
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Input Manager
+    KeyName: INPUT_MANAGER
+    LastVersion: 1.7
+    Info: {fileID: 0}
+    CurrentVersion: --
+    MinVersion: 1.6
+    FolderName: InputManager
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Player Pack #2
+    KeyName: 
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: 4fb9f7d5cf4e0f44e8b45ff683b20d19, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: PlayerPacks/Pack[2]
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: 'Vehicle: Tank'
+    KeyName: MFPS_VEHICLE
+    LastVersion: 1.1.2
+    Info: {fileID: 11400000, guid: 8071c2061ac7e664f96e8d3f4e6f6143, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Vehicles/Tank
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Kill Confirmed
+    KeyName: 
+    LastVersion: 1.0.1
+    Info: {fileID: 11400000, guid: 1d3933187e0d27344843d8094ae1a15c, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: GameModes/KillConfirmed
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Vouchers
+    KeyName: VOUCHERS
+    LastVersion: 1.0.3
+    Info: {fileID: 11400000, guid: a7615aaaea6a2084db61c9d786be6cf6, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: Vouchers
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Anti-Cheat And Reporting
+    KeyName: ACTK_IS_HERE
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: 997f645551da940418fc06fbfd10b3ea, type: 2}
+    CurrentVersion: 1.0.0
+    MinVersion: 1.0
+    FolderName: AntiCheat
+    DoNotRequireEnabled: 0
+    ChangeLog: []
+  - NiceName: Game News
+    KeyName: GAMENEWS
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: 36db8bad1e54be34f9481e7799731ce4, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.0
+    FolderName: News
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Daily Reward
+    KeyName: DREWARD
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: b820b0de54703124b8b5fde892ebea56, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.9
+    FolderName: DailyReward
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: FP Legs
+    KeyName: FPLEGS
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: 662aa634bae4d1e4bb89cd04797f83b1, type: 2}
+    CurrentVersion: 1.0.0
+    MinVersion: 1.9.3
+    FolderName: FPLegs
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  - NiceName: Spawn Selection
+    KeyName: SPSEN
+    LastVersion: 1.0.0
+    Info: {fileID: 11400000, guid: aa232053fa2716e459e5734f22a76265, type: 2}
+    CurrentVersion: --
+    MinVersion: 1.9.3
+    FolderName: SpawnSelection
+    DoNotRequireEnabled: 1
+    ChangeLog: []
+  AutoUpdate: 0

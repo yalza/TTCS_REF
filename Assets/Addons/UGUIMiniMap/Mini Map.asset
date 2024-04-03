@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a776487618c5eca41bfe2a54260297f7, type: 3}
+  m_Name: Mini Map
+  m_EditorClassIdentifier: 
+  Name: Mini Map
+  Version: 2.4.2
+  MinMFPSVersion: 1.9
+  Instructions: "<?background=#FFF><b>GET STARTED</b></background>\n\r\n-After import
+    the package in your project you only need add an layer to get ready.\r\nin the
+    LayerMask List (Edit -> Project Settings -> Tags And Layers -> Layers -> *) add
+    a new layer in the field number 10 called 'MiniMap'.\r\nthat's, check the full
+    documentation for details.\r\n\r\n<?background=#FFF><b>MFPS INTEGRATION:\r</b></background>\n\r\n-
+    for integrate in MFPS simple go to MFPS -> Addons -> MiniMap -> Enable\r\n- Wait
+    until script compilation finish and then go to MFPS -> Addons -> MiniMap -> Setup
+    Players.\r\n- Then drag one of the MiniMap prefabs (Addons -> UGUIMiniMap ->
+    Content -> Prefabs -> *) in the map scene (see the documentation for more details)\r\n-
+    Ready!"
+  TutorialScript: MiniMapDocumentation

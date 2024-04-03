@@ -1,0 +1,23 @@
+all models, textures and sounds in this pack are free to use for non-commercial and commercial use
+
+You must not:
+- selling or distributing models elsewhere as your models.
+
+**Hand Model**
+
+original model: Unity Technologies: 3dr person shotter.
+re-modeling: tho89
+textures:
+sleves: lovatto studio.
+Gloves: tho89
+Skin: tho89
+
+**Player Model**
+
+Model: Unity Technologies: BootCamp
+Textures:  Unity Technologies: BootCamp and Lovatto Studio.
+Animation: Unity Technologies: BootCamp and Lovatto Studio.
+
+Credits are not required.
+
+Contact Lovatto Studio: contact.lovattostudio@gmail.com

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7a6e332768103e4bae20dfea765178f, type: 3}
+  m_Name: FootStepsLibrary
+  m_EditorClassIdentifier: 
+  Groups:
+  - Tag: Generic
+    StepSounds:
+    - {fileID: 8300000, guid: b6ea9f7e5b1469346a8e407ea9962f8d, type: 3}
+    - {fileID: 8300000, guid: 038049d67451d7c4496cde4c9adca488, type: 3}
+    - {fileID: 8300000, guid: 1886247efa26c704487936b7855c9c80, type: 3}
+  - Tag: Metal
+    StepSounds:
+    - {fileID: 8300000, guid: 8767e94c936d3c341875c4281c59a617, type: 3}
+    - {fileID: 8300000, guid: 11ba24e5375c7454a8088453d440b35a, type: 3}
+    - {fileID: 0}
+  - Tag: Dirt
+    StepSounds:
+    - {fileID: 8300000, guid: e0ba7bab5dbc91d46991a0a487ea0a3d, type: 3}
+    - {fileID: 8300000, guid: 3ee56220fe937b746869c246b371fd07, type: 3}
+    - {fileID: 8300000, guid: 3222ed840dee5af4182e02666b68d219, type: 3}
+  - Tag: Water
+    StepSounds:
+    - {fileID: 8300000, guid: 4df83c23d999bdb469b8128d37d4ef34, type: 3}
+    - {fileID: 8300000, guid: 1144b6d609d81f542af9eb3eddf61de1, type: 3}
+  pitchRange: {x: 0.95, y: 1.05}
+  m_FootstepSounds:
+  - {fileID: 8300000, guid: 038049d67451d7c4496cde4c9adca488, type: 3}
+  - {fileID: 8300000, guid: b6ea9f7e5b1469346a8e407ea9962f8d, type: 3}
+  - {fileID: 8300000, guid: 1886247efa26c704487936b7855c9c80, type: 3}
+  DirtStepSounds:
+  - {fileID: 8300000, guid: e0ba7bab5dbc91d46991a0a487ea0a3d, type: 3}
+  - {fileID: 8300000, guid: 3ee56220fe937b746869c246b371fd07, type: 3}
+  - {fileID: 8300000, guid: 3222ed840dee5af4182e02666b68d219, type: 3}
+  WatertepSounds:
+  - {fileID: 8300000, guid: 1144b6d609d81f542af9eb3eddf61de1, type: 3}
+  - {fileID: 8300000, guid: 4df83c23d999bdb469b8128d37d4ef34, type: 3}
+  MetalStepSounds:
+  - {fileID: 8300000, guid: 11ba24e5375c7454a8088453d440b35a, type: 3}
+  - {fileID: 8300000, guid: 8767e94c936d3c341875c4281c59a617, type: 3}

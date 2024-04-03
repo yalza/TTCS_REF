@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0dd487860f9b6d439f6f97e529aac66, type: 3}
+  m_Name: Bullet Decal List
+  m_EditorClassIdentifier: 
+  genericSurfaceId: 0
+  surfaceDecals:
+  - SurfaceTag: Untagged
+    DecalMaterials:
+    - {fileID: 2100000, guid: a29767879f97b364393df3a772628180, type: 2}
+    - {fileID: 2100000, guid: afe7281b53b74734c98a653832a8e650, type: 2}
+    SizeRange: {x: 0.4, y: 1.2}
+  - SurfaceTag: Concrete
+    DecalMaterials:
+    - {fileID: 2100000, guid: 396ce8a00f729b843913960b16ac5e50, type: 2}
+    - {fileID: 2100000, guid: 177e285acf6ae9d4cb075cd6c2a1cdc9, type: 2}
+    SizeRange: {x: 0.4, y: 1.2}
+  - SurfaceTag: Metal
+    DecalMaterials:
+    - {fileID: 2100000, guid: 094e76e620df5714eb3946120657e1f6, type: 2}
+    - {fileID: 2100000, guid: e37f4dae7a2306f4a8f1006c43f9f73f, type: 2}
+    SizeRange: {x: 0.5, y: 1.1}
+  - SurfaceTag: Wood
+    DecalMaterials:
+    - {fileID: 2100000, guid: 39babc0a61c17df41bca722640cfc289, type: 2}
+    - {fileID: 2100000, guid: bc82049595bb2784c822fb8a764e5719, type: 2}
+    SizeRange: {x: 0.6, y: 1.3}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cbd5d9786b42ab4da29de6ec39df66e, type: 3}
+  m_Name: CameraMotionSettings
+  m_EditorClassIdentifier: 
+  smooth: 4
+  tiltAngle: 6
+  sideMoveEffector: 3
+  aimMultiplier: 0.5
+  breatheAmplitude: 0.14
+  breathePeriod: 0.75
+  downMotionDuration: 0.6
+  DownAmount: 8
+  downPitchMovement:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.59287333
+      outSlope: 0.59287333
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.21276125
+    - serializedVersion: 3
+      time: 0.19527858
+      value: 0.95316833
+      inSlope: 2.077077
+      outSlope: 2.077077
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.19230612
+      outWeight: 0.26383242
+    - serializedVersion: 3
+      time: 0.4009789
+      value: 0.99232763
+      inSlope: -1.726396
+      outSlope: -1.726396
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.07932771
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -0.037888143
+      outSlope: -0.037888143
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.12896578
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

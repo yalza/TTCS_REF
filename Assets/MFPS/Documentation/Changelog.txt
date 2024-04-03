@@ -1,0 +1,853 @@
+﻿
+### -1.9.3
+
+# Improvements
+
+-IMPROVED: Ladder System, easier to use and more robust.
+-IMPROVED: Added option to easily reset saved input mappeds to fix the issue with new inputs not appearing in the binding list.
+-IMPROVED: The MFPS Manager window 'Weapon' tab, now is easier to modify the weapons properties with it.
+-IMPROVED: Enhanced the ladder third-person climbing animation.
+-IMPROVED: Add new MFPS custom mods editor window (MFPS > Store > Custom Mods), show available MFPS mods not available as addons.
+-IMPROVED: Now you can set to hide the weapons when the player is climbing a ladder.
+-IMPROVED: Add editor action in MFPS > Actions > Delete Player Prefs, to reset all the PlayerPrefs to they default values.
+-IMPROVED: Player movement on uneven surfaces and slopes.
+-IMPROVED: Added a forward direction gizmo for the AI Weapons to make it easier to orient the weapons in the bot character's hands.
+-IMPROVED: Better grenade throw direction calculation, now is possible to define the throw upward force from the inspector too.
+-IMPROVED: Support for the input binding list with the Localization addon.
+-IMPROVED: Add a new Game Modes tab in the MFPS Manager window, to easily edit the game modes parameters in the editor.
+-IMPROVED: Now the player damage screen opacity is calculated by the damage amount received instead of a fixed value.
+
+#Fixes
+
+-FIX: Alive bots stay still in new rounds and do not respawn in the team area.
+-FIX: Bullet doesn't detect custom damageable colliders unless they have the tag 'Metal'.
+-FIX: FPWeapon keeps rotating when the game is paused and the cursor is not focus on the game window.
+-FIX: Player admin or moderator tag only shows if the player is in a clan.
+-FIX: Push To Talk option was not working on mobile devices.
+-FIX: Regression the FPWeapon fire sound volume, now changing the volume in the attached AudioSource will also affect the fire sound.
+-FIX: Issue introduced in version 1.9.2 that cause the player keep moving when a match finish.
+-FIX: Players can climb ladders infinitely if the ladders triggers aren't properly set up.
+-FIX: Changes in the player class loadout made through the MFPS Manager Window get reset after a script compilation or editor restart.
+-FIX: Legs IK issue that happens when preview the player IK in the editor and not properly close the Animation runner window.
+-FIX: bl_Input.GetButtonDown() did always return false if was called multiple times in the same frame.
+-FIX: The first friend added or when there's only 1 friend added it doesn't show up in the friend list.
+-FIX: Games screen goes black when change the resolution or open the game settings on WebGL (Screen Mode setting is not supported on WebGL).
+-FIX: Changing the GunID of a Knife in the inspector of bl_Gun.cs changes the weapon type in the GameData causing errors in runtime.
+-FIX: Applying the changes in the in-game settings menu causes the screen to stretch out horizontally on mobile devices.
+-FIX: The grenades were being thrown with a left offset to where the player was aiming.
+-FIX: Changing the weapon fire rate in runtime causes to play the wrong third-person weapon fire animation.
+-FIX: Changing the weapon fire rate in runtime causes to change the default Weapon Type of that weapon in GameData.
+-FIX: Bots do not detect players after a respawn in some instances.
+-FIX: Weapons always start with the default fire rate type, independent of the weapon fire rate rules set in the inspector.
+-FIX: Local player sometimes doesn't jump after pressing the jump key when the game fps is low.
+-FIX: Round keep restarting when the first round is finished and countdown on start is active on round based game modes.
+-FIX: Teammate name-plates appear in the sky position when the local player spawn far from them.
+-FIX: Errors after enable Photon Voice 2 version 2.25 or up.
+-FIX: Kill a teammate when friendly fire is activate increase the player score.
+-FIX: Shotguns using Animator component gets stuck when trying to fire while is reloading.
+
+# New Addons:
+
+- FP Legs: Integrates first-person legs and first-person body character shadow with a few clicks to any player prefab without third-party tools, Link: https://www.lovattostudio.com/en/shop/camera/fp-legs/
+- Game News: Display notes, news, events, etc. in the game lobby and update them without updating the game, Link: https://www.lovattostudio.com/en/shop/gui/game-news/
+- Daily Reward: Simply yet powerful system to reward your players with a daily reward, Link: https://www.lovattostudio.com/en/shop/addons/daily-reward/
+- Spawn Selection: Integrate a spawn selection menu to allow players to choose their spawn point before the match starts, similar to Battlefield games, Link: https://www.lovattostudio.com/en/shop/camera/spawn-selection/
+
+### -1.9.2
+
+# Added
+
+-ADD: Option in GameData to determine how the bot eliminations affects the real player stats to avoid using bots to level up accounts.
+-ADD: Basic Anti-Cheat Toolkit (ACTk) Unity plugin integration to prevent players to be able modify the player health, ammo, kits count with cheat engines.
+
+# Improvements
+
+-IMPROVED: Smoother camera motion when move the character and rotate the camera at the same time.
+-IMPROVED: Grenade fire sequence using Animator.
+-IMPROVED: Now is possible to preview different AI idle animations in the editor from the inspector of bl_AIAnimation.cs
+-IMPROVED: Added aim multiplier value in bl_WeaponSway inspector in order to more easily adjust the weapon delay effect when the player is aiming.
+-IMPROVED: Added aim rotation multiplier value in bl_WeaponBobSettings inspector in order to more easily adjust the weapon bob rotation when aiming.
+-IMPROVED: Match player scoreboard popup menu.
+
+# Fixes
+
+-FIX: Crosshair Scale value was not affecting the crosshair size at all.
+-FIX: Can't modify the player left arm after using the Add Player tutorial.
+-FIX: Console error when open the settings menu in offline mode.
+-FIX: FPWeapon fire sound immediately stop after switching weapons.
+-FIX: Match player scoreboard pop-up menu was not working.
+-FIX: The room list in the lobby doesn't update after changing server region causing showing rooms from another region.
+-FIX: Removed player camera jerky/stutter render effect when moving and rotating the player.
+-FIX: Kill Camera Orbit Mode doesn't focus on the killer player.
+
+# New Addons
+
+- Anti-Cheat and Reports: Advance integrations of the Anti-Cheat Toolkit asset and an custom user report system,
+with the advance integration of the Anti-Cheat Toolkit players using Speedhack, Code Injection, Memory Injection, and or Wallhack will be automatically banned,
+and with the custom user report system players will be able to manually report hackers/cheaters from the game scoreboard menu.
+
+### -1.9.1 (Scripts Changes Only)
+
+# Improvements
+
+-IMPROVED: Added acceleration to the weapon procedural run animation for a smoother transition.
+-IMPROVED: Added fire delay on the first weapon shot when the player is running to avoid shooting while the weapon is not aiming forward.
+-IMPROVED: Kill Cam - Observe Death mode position calculation.
+-IMPROVED: Now screen resolution setting is saved and automatically applied on new sessions.
+-IMPROVED: Now you can change the crouch height in the bl_FirstPersonController inspector.
+
+# Fixes
+
+-FIX: Join buttons appear even when Auto Team Selection is enabled.
+-FIX: FP Weapons that uses custom walk and run animations sometimes appear with wrong aim position.
+-FIX: In-game Drops did not spawn the item after finishing the delivery.
+-FIX: Error that sometimes happens when a remote player switches to the bare hands animation.
+-FIX: Issue that cause the player not able to close the menu when use 'Direct To Map' room join method and cancel enter spectator mode.
+-FIX: Resolution change was not working in Lobby settings menu.
+-FIX: Error when 'Direct To Map' room join method is used and a bot gets killed.
+-FIX: Can't leave spectator mode with the UI button using a mouse.
+-FIX: Quick fire (G) for grenades and molotov's was not working.
+-FIX: Adding not allowed maps cause an error when creating a room with addons game modes.
+-FIX: Can't use stealth mode walking sideways or backward.
+-FIX: Health regeneration synchronization problem that caused players to get invisible sometimes after eliminating them.
+-FIX: The player remains on the scoreboard after he leaves the game if the scoreboard is not open.
+-ADD: Support for Photon Custom Authentication with ULogin Pro.
+-FIX: Orbit Target kill camera mode was not working.
+-FIX: Bots randomly bend down when running towards a target.
+-FIX: Coins and Clan score is not saved in per round based matches.
+
+-1.9
+
+-CHANGE: Input Manager now comes with the core package, the formerly addon is now integrated and used as the default input system allowing rebinding inputs in runtime and adding support for xbox controller.
+-CHANGE: Upgrade to Text Mesh Pro, now all the UI Elements (Text, Drop-downs and Input-fields) are now using TMP instead of UGUI.
+-IMPROVE: Added MFPS installer assistant, now when you import MFPS, a window will appear to guide you for a seamless installation of MFPS and its dependencies.
+-CHANGE: Now the MFPS package comes with Photon PUN (only the required files), is no longer needed to import Photon plugin before the MFPS package.
+-IMPROVE: The majority of the game scripts now are inheritable allowing you to use your own scripts variations without breaking references and without code refactorization needed.
+-ADD: Game session verification, if enabled, the game will verify at the initial connection that the player has not another game session opened at the same time with the same account.
+-FIX: Bots teammate death icons don't show for non-master client players.
+-ADDON: New Kill Confirmed game mode addon, LINK: https://www.lovattostudio.com/en/shop/addons/kill-confirmed/
+-ADD: Bullet drop, physic calculation using Heun's method's to simulate a realistic ballistic, you can define the amount of the drop per weapon.
+-IMPROVE: Make it easier to replace player animations by using Animator Override Controllers.
+-IMPROVE: Less buffered RPCs usage overall, less band-weight per player = more players per room allowed
+-ADD: Door System, an optimized multiplayer door system, easy to use and capable to use in large maps with lots of doors instances.
+-FIX: Double screen fade out when manually leaving a room.
+-ADDON: Emblems and Calling Cards addon, allows player customize their player card with emblems and calling cards in a better Kill Cam UI, LINK: https://www.lovattostudio.com/en/shop/gui/emblems-and-calling-cards/
+-IMPROVE: Added FOV slider in the in-game settings menu.
+-ADD: Unified Input indicator UI, a singleton class to show a UI to let players know when an interactable item requires an input.
+-IMPROVE: Mouse look aim, now the sensitivity is calculated by the aim zoom instead of a fixed value.
+-FIX: PhotonView error at the beginning of the match due to duplicate view IDs from bots.
+-ADD: 'Aim while sprinting' options, now you can decide between Stop sprinting, Block Aim, or Allow Aim while sprinting.
+-FIX: Bots scoreboard UI doesn't disappear when it's replaced in the middle of a match.
+-ADDON: Vehicle: Tank, multiplayer tank controller, LINK: https://www.lovattostudio.com/en/shop/addons/vehicle-tank/
+-IMPROVE: New, better, and unified HitBox system now is the same interface for both players and bots prefabs.
+-IMPROVE: Now is possible to download and import the addons from the Unity Editor through the MFPS Addons Manager window.
+-ADD: Multiple virtual coins support, allowing having a coin to earn by playing the game and another only accessible by purchasing it (optional).
+-IMPROVE: Weapon pickup throwing physics, now the weapon is thrown where the player is looking at instead of a fixed point.
+-ADDON: Floating Text addon, a highly optimized system to show floating damage numbers similar to games like APEX Legend and Fortnite, LINK: https://www.lovattostudio.com/en/shop/gui/floating-text/
+-ADD: Bullet Decal Manager, now the bullet decals are handled separately from the main pool system, now decals do not disappear after a delay and they appear with a random scale.
+-FIX: The player was able to sprint moving side-ways or backward.
+-ADD: Per Map allowed game modes, now you can define which modes are allowed in each map, in the Map scene info.
+-IMPROVE: Sniper scope aim transition.
+-ADD: Sniper scope breathing movement effect, the amount of movement can be assigned per weapon.
+-ADD: New default lobby window 'Barraks' to better integrate addons menus in the lobby (Player Clan, Avatar, Calling Card, Level Progress, and Ranking windows).
+-FIX: An error that provokes pick-up weapons multiplies the ammunition with each pickup.
+-IMPROVE: Player third-person movement animations, fixing the issue with walking-in-diagonal legs animation mixing.
+-ADD: Ping counter, text in the top right corner of the screen indicating the current ping of the local player connection.
+-ADDON: Layout Customizer: allows players to modify UI elements in runtime, LINK: https://www.lovattostudio.com/en/shop/gui/layout-customizer/
+-IMPROVE: The capture of Flag game mode, cleaning the code, and improving the flag-carrying position.
+-IMPROVE: Local notifications systems now are modular and easily replaceable.
+-FIX: First pick-able item market with auto-respawn never respawn again.
+-IMPROVE: Bullet performance, less hit detection checks per frame with the same accuracy.
+-FIX: An issue that was causing bullets not to travel to where the player was aiming when a collider was near the weapon fire point.
+-IMPROVE: Head bob movement, added a slight vertical movement for a more realistic head motion.
+-ADD: Stealth Mode, default key Left Control makes the player move slowly and reduces the footstep sound volume.
+-FIX: Can't move the player after trying to suicide while spawn protection was active.
+-IMPROVE: Foot IK solver, now the knees and feet are also handled by the solver to prevent wrong legs orientation.
+-FIX: Can't close the pause menu with 'Escape' key.
+-ADDON: New Discord Login, allows authenticate in ULogin Pro with Discord accounts, LINK: https://www.lovattostudio.com/en/shop/network/discord-login/
+-IMPROVE: Now the in-room menu is managed in separated scripts to make it easier to modify and extend.
+-FIX: Join to team buttons do not appear when LobbyJoinMethod is set to DirectToMap.
+-IMPROVE: Add acceleration to the player movement to smooth the transition from idle to walk/run action.
+-FIX: Explosion damage was not being applied to vehicles or any damageable object with a Rigidbody in the root transform.
+-ADD: Weapon reload UI indicator, UI text that automatically shows, warning the player if needs to reload, has low or none ammunition left.
+-IMPROVE: Now Clan System addon is integrated into the MainMenu scene instead of in a separate scene.
+-FIX: Error in the editor regarding cleaning up the scene that is shown sometimes after stop play mode.
+-IMPROVE: Better weapon particles FX.
+-IMPROVE: Better player model weapon animations.
+-ADDON: New Player Pack #2 addon, integrates 4 player models from the Maksim Bugrimov's asset PBR Women Soldiers, LINK: https://www.lovattostudio.com/en/shop/addons/player-pack-2/
+-FIX: Kill Cam sometimes appears underfloor/surface where the player dies.
+-FIX: Bots kills were not counting in Free For All mode.
+-IMPROVE: Spawnpoint system, added cube shape option, to define spawn points with a cubic area instead of just a semi-sphere area.
+-IMPROVE: Now the player will automatically spawn snapped to the ground instead of to the spawn point vertical position.
+-FIX: Crosshair was not being faded out when aiming with the sniper.
+-FIX: System.Reflection.TargetException console error that was shown after every compilation or editor reload in Unity versions 2020.1++
+-IMPROVE: Add custom in-game cursor.
+-FIX: Turning on Friendly Fire had no effect.
+-IMPROVE: Now a gizmo line appears when selecting a TPWeapon indicating where the weapon should look at.
+-IMPROVE: It is automatically set up player Audio Sources to prevent hearing other players' sounds from long distances as if was close to the local player.
+-FIX: Player Kick feature was not working since Photon PUN 2.37
+-FIX: Player in-air control movement.
+-FIX: Turn on Invert Mouse Horizontal option also affect the Vertical movement.
+-FIX: Inspector lists in the MFPS Manager window can't be unfolded in Unity 2020.1 or newer versions.
+-IMPROVE: Now players can join as spectators from the Waiting Room menu.
+-IMPROVE: Now you can use custom player animations (Fire, Reload, Idle, and Fire) for each TPWeapon.
+-IMPROVE: Big CPU performance boost for bots in remote players and slightly improved for Master Client.
+-IMPROVE: Bots animation replication on all clients is now more accurate.
+-FIX: Crosshair remains static after switching to a sniper or pistol from a knife.
+-ADD: Resolution and Screen Display Mode in-game settings.
+
+-1.8.2
+
+-FIX: Room automatically finish right after start when Photon OnPremise is used.
+-FIX: Player can slide walking backward or by side.
+-FIX: Time shows one minute more of the correct time.
+-FIX: Level Manager: level icon doesn't shows in the player scoreboard.
+-FIX: Error when trying to add a new friend and ULogin Pro is enabled.
+-FIX: Addon Manager window non-readable text in left panel when light Unity skin is used.
+-FIX: Player scoreboard team name text doesn't get update.
+-FIX: Can't use knife after fire 15 times.
+-FIX: Mobile Control: turn on the Auto Fire feature cause weapons to shoot non-stop with unlimited ammo.
+-FIX: Errors when enable Photon Voice addon.
+-FIX: Room Creator Menu doesn't apply the default values when an non-map scene is loaded from the lobby.
+-IMPROVE: Add Aim Position Preview button in bl_PlayerIK.cs inspector, with this you can preview how the TP arms will be positioned when the player is aiming.
+-FIX: Issue that cause the "Edit Hands Position" (for preview the IK of player arms) of bl_NetworkGun not work after a script compilation.
+-FIX: Elimination: in a bot/players match, when all the real players are in the same team the game can't start until manually team balance happens.
+-FIX: Player scoreboard doesn't update in One Team game modes and 'Direct Map Join' method is used.
+-FIX: An issue that provokes that sometimes can't see other player's created rooms in the server list.
+
+-1.8
+
+-IMPROVE: Third person player movement animations blend.
+-FIX: Error with Player Selector after spawn with the player.
+-IMPROVE: Footstep system, now it support terrain layers, now you can play different sounds depending in the terrain texture.
+-ADDON: New Third Person View addon: allows switch between first-person and third-person view in-game with a button or set the third-person view as the unique game view, LINK: https://lovattostudio.com/u/mfpstpaa
+-IMPROVE: Pick up window pop up.
+-IMPROVE: Now the local player rag-doll will appear in a pose based in the state of the player before he dies (idle, running, crouch, etc...)
+-FIX: Error when block the weapons and tried to switch weapons with the mouse scroll or quick-fire knife/nade.
+-IMPROVE: Now bots are supported in Elimination game mode.
+-IMPROVE: Now you can define on the inspector in which game modes bots are supported in GameData -> Game Modes -> *game mode* -> Support Bots, note that bots by default are only supported in FFA, TDM and ELIM game modes.
+-FIX: Match time never update for non-master clients when auto team selection is On.
+-IMPROVE: Make player scoreboard managed from an independent script in order to make it easier to customize.
+-IMPROVE: Add option to always shows the weapon loadout or auto hide (default), this option can be found in UI->PlayerUI->PlayerInfo->Loadout->bl_WeaponLoadoutUI->Show Mode.
+-IMPROVE: Weapon pickup system.
+-IMPROVE: Reduce the message per player count in OnPhotonSerializeView on more than half.
+-IMPROVE: Add text notification in waiting room to let players know when more players are required to start the game.
+-ADDON: Vehicle: Car: Multiplayer 4-wheels vehicle system, allowing enter/exit the vehicle as driver or passenger, LINK: https://lovattostudio.com/u/mfpscar
+-FIX: Grenade mesh don't shown again (in the FPArms) after throw one of them.
+-FIX: Fall damage calculation that causes player dies from falling short distances.
+-IMPROVE: Add weapon slot rules (GameData->Weapon Slot Ruler), allows you define what kind of weapons can be assigned in each of the player equipment slots.
+-IMPROVE: Add bl_PlayerReferences.cs, this script is attached in each player prefab and mapped all the player prefab attached scripts, use to get any player script instead of GetComponent, GetComponentInChildren, etc...
+-ADD: Custom IK Handler, allows you to define custom IK targets for the third person player arms with bl_PlayerIK.CustomArmsIKHandler.
+-FIX: Bots ignore the local player in FFA mode.
+-IMPROVE: Slightly improved the bots behave and made the bots behave-settings more modular and easier to modify.
+-ADDON: Paypal for Shop: Enables to use Paypal checkout (using the official Paypal checkout V2 API) to purchase in-game coins from the Shop addon, LINK: https://lovattostudio.com/u/ppfsaa
+-IMPROVE: Ammo and Health kit system.
+-ADD: Home window in the MainMenu scene, now it's the default window instead of the server list window.
+-IMPROVE: Item pickup ray detection, before, the player has to look directly at the object in order to be able to pick up it, now only need to look near it.
+-IMPROVE: The player controller now auto slides in surfaces with angle > to the Character Controller slope limit.
+-IMPROVE: ItemManager system.
+-FIX: Match time is out of sync for non-master clients when countdown is turn off.
+-ADD: MFPS Editor Manager window, an Unity Editor window that allows you have all the MFPS settings + the Addons settings in an single menu, open it with Ctrl + M on Windows or ⌘ + M on Mac
+-FIX: Photon view error on the start of the match caused by a duplicated bot photonview.
+-DOC: Guide to update older MFPS version with new updates, Documentation -> Update MFPS.
+-IMPROVE: Now bots are replaced when a new player enter in match in FFA (before only works in TDM)
+-FIX: Bots stop working when an old master client re-join in the match.
+-IMPROVE: Now bots replace players when they left a game leaving an empty spot in the match.
+-ADDON: Authenticators: Facebook and Google: allows sign-in/sign-up in ULogin Pro with Facebook or Google accounts, LINKS: https://lovattostudio.com/u/gglaa and https://lovattostudio.com/u/fblaa
+-FIX: Player Selector: InMatch mode.
+-FIX: Burst weapons shoot the full round even if the clip doesn't have the required ammo.
+-FIX: Crosshair doesn't re-center when change screen resolution.
+-IMPROVE: Rewrite the in-game settings with a more robust, modular and easy to use solution.
+-IMPROVE: The lobby room creator menu.
+-IMPROVE: Input Manager: now you can change input device (keyboard-controller) in-game trough the settings menu.
+-IMPROVE: FPWeapon side-walk movement effect.
+-FIX: Weird bots upper body rotation when the target is in the opposite direction from where the bot is heading to.
+-ADD: MouseLook Frame Smoothing, resulting in a more fluid and precise mouse movement (works for mobile pad too).
+-ADD: Room UI Mask, now you can show/hide certain groups of in-game UI with bl_UIReferences.Instance.SetUIMask(RoomUILayers.Loadout | RoomUILayers.WeaponData | RoomUILayers.Scoreboards | RoomUILayers.Time...);
+-IMPROVE: Integrate the Friend List with ULogin Pro, now will be verified if the given friend exist before add in the friend list.
+-DOC: Add Universal Render Pipeline (URP) tutorial in documentation, which guides in how to convert MFPS to URP/HDRP.
+-IMPROVE: Now player won't be able to stand up (when is crouch) if there's an obstacle above him.
+-ADD: Infinity Ammo option for weapons, simply attach the script bl_MapMods in any scene object and turn on the Infinity Ammo toggle.
+-IMPROVE: Friend list UI in the Lobby scene.
+-FIX: Import GAIA and other assets that include the standard First-Person Controller scripts broke the MFPS player references(works in Unity 2019.4++)
+-IMPROVE: Player third person left arm IK movement.
+-ADD: Player class dropdown selector in Lobby and Room menus.
+-IMPROVE: Level Manager: Now the killer player level icon is shown in the kill cam UI.
+-IMPROVE: Player scoreboard management, reducing garbage collection caused by the update of the tables.
+-IMPROVE: Killfeed list is now pooled, reducing the garbage collection caused by the instantiation-destroy of this in each kill event.
+-FIX: Camera zoom jump when player is running and switch weapon.
+-IMPROVE: TP weapon switch animation timing.
+-FIX: Weapon range was not working, now the Range set in the Weapon Info will be the max range of the bullets from that weapon.
+-Along with this MFPS update, all MFPS addons has been updated as well, the last version of each of them is required check the change log here: https://lovattostudio.com/u/mfpsacl
+
+
+-1.7.5
+
+-FIX: Build compilation error when compiled with Unity Cloud Build to iOS.
+-IMPROVE: Now when play in offline mode and Player Selector is enable, will use the player prefabs from GameData instead of the last selected.
+-FIX: Error at the end of matches when play without bots in FFA game mode.
+-IMPROVE: Now Slide animation in TP Players will finish as soon as the local player state finish instead of a fixed time.
+-FIX: Error on player spawn when change,remove or add meshes in FP Gun without bl_Gun inspector open.
+-FIX: Wrong TP Player arms position when a burst weapon is used.
+-FIX: The frame rate selector prefab was not included in the package.
+-FIX: Play the wrong footstep sounds for the local player.
+-ADD: New South Africa Server option.
+-FIX: Bullets randomly doesn't detect bots and players collision.
+-FIX: DateTime error in editor caused by MFPSNews window.
+-IMPROVE: Now the game will automatically detect when an Unity Remote device is connected and use the Mobile Control input instead of the keyboard.
+-FIX: Photon Voice 2.16++ compatibility.
+-FIX: Errors when have Photon Voice enable and play a scene in offline mode.
+-IMPROVE: Addons Manager window now show the lasted addons updated along with the change logs.
+-FIX: Bots can't damage players of the Master Client team (other than the Master Client).
+-FIX: Can't connect to self hosted server after change server region (which is not supported in Photon Server)
+-FIX: Error with AI Cover Points when one or more points doesn't have neighbors points as fall-back.
+-FIX: Errors when play in offline mode and Input Manager addon is enabled.
+-FIX: Friend list UI doesn't update when add the first friend.
+-IMPROVE: Various other minor fixes.
+
+-1.7
+
+-CHANGE: Minimum Unity version support raise to 2018.4
+-IMPROVE: Now Post-Processing Stack V2 is used, increasing the graphic quality, and now it can be removed through the Unity Package Manager.
+-ADD: Slide movement: this mechanic allows players to slide with the crouch key when they are sprinting forward.
+-FIX: Errors when enabled Photon Voice.
+-IMPROVE: Draw Name position calculation, before the UI was overlapping the player at a certain distance away, now the calculation will try to always show the hud above the player head.
+-FIX: Shotgun reload was automatically canceled, causing that only one bullet inserted.
+-IMPROVE: Now you can display the 'player nameplate' in the scene view, making easy edit the design since you'll be able to preview without play the scene with multiple players.
+-ADD: Grenade/Projectile Launcher, a new weapon type that fires a specially-designed large-caliber projectile.
+-IMPROVE: Name Plate Presents, now you can create presents of the Name Plate Style.
+-FIX: Overlapping text in some UI Text components in Unity 2018.3++.
+-IMPROVE: Added 'AutomaticallyComeBack' option in bl_Recoil.cs, turn off this option and recoil won't return back to the default position.
+-FIX: Hit marker randomly shows up for master client when a bot causes damage.
+-FIX: Bots were still able to throw grenades seconds after they die.
+-ADDON: New Kill Streaks: With this addon, players will be rewarded with some abilities for managing to kill a certain number of enemy players without dying,
+this package includes UAV, Air Streak and Helicopter Support. LINK: https://www.lovattostudio.com/en/shop/addons/kill-streaks/
+-ADD: Frame Rate selector, a dropdown in the settings menu with which players can select the update frame rate.
+-IMPROVE: Rewrite the spawn FPWeapon effect (fade in/out overlay color over weapon and arms materials).
+-IMPROVE: Bots cover point selection, now the selection algorithm will try to select nearby points if the selected one is already occupied by another bot to avoid congestion in hot spots.
+-IMPROVE: Now player and bots fly away when die by an explosion near them.
+-IMPROVE: Added option in GameData to disable the crosshair in-game.
+-ADD: Photon Offline Mode support, now you can rapid-test the room scenes in offline mode improving the workflow by playing the room scene directly, useful for test small changes or modifications e.g: test guns, player controller, etc...
+Note that this offline mode doesn't mean support for standalone offline gameplay, it's intended to rapid-test only, playing directly the map scene instead of go to the lobby -> connect to the server -> create a room -> load the map -> etc...
+-IMPROVE: Now the Third Person Reload animations time (that take play the whole animation) match with the First Person weapons reload time.
+-IMPROVE: Added option in GameData to disable the 'Wiggle' player camera effect when walk or run (not the head bob movement).
+-FIX: Weapon Camera Field Of View was not be applied on start but until the player opens the settings menu.
+-IMPROVE: Made the weapon bob settings managed by presents, that way you can create multiple movements settings and having backups.
+-IMPROVE: Added a Counter Strike-like weapon bob settings present (optional).
+-FIX: Sometimes pickup guns don't respond to input, it happened when two guns were next to each other and trigger area intersect between.
+-IMPROVE: Player animation, walk, run, jump and some weapons animations transitions have been improved for better looking.
+-FIX: The game was trying to load the MainMenu scene after Stop the game (in the editor) causing stack the scenes in the Hierarchy scene fields (MainMenu (Loaded))
+-IMPROVE: Now players can't select the grenade if they don't have ammo for this.
+-ADDON: 'Shop Unity IAP' extension, this addons which are at the same time is an extension of the Shop addon, integrate the MFPS Shop system with the Unity In-App Purchase system, 
+which allow process real payments to purchase virtual coins in various platforms like iOS and Android, LINK: https://www.lovattostudio.com/en/shop/addons/unity-iap-for-shop/
+-IMPROVE: Now grenade weapons will automatically switch to the previous weapon when players throw the last grenade.
+-ADD: 'Weapon Switch Style' options in bl_GunManager.cs, you can select between three options: HideAndDraw, Counter-Strike Like, HideCompletelyAndThenDraw.
+-FIX: Player mesh for bots and player prefab get stretched at a certain distance, problem cause by LOD meshes.
+-IMPROVE: Added custom skin to the In-Editor tutorials to be more readable in both Unity Pro and the personal versions.
+-FIX: Bots were destroyed when Master Client leave the room, now bots data and current state will automatically transfer to the new Master Client.
+-FIX: Nameplate and Health Bar was showing for Non-team mate bots in Non-Master Clients.
+-IMPROVE: Now the In-Editor tutorials include short clips (GIF images) in some tutorials, making it even easier to understand them.
+-FIX: Footstep doesn't play for FPWeapons using Animations for Walk and Run movement.
+-ADDON: Shop: Now you can sell weapons camos when using Customizer addon.
+-IMPROVE: Now weapon spread factor on ADS can be modified in the inspector bl_Gun -> 'Spread Aim Multiplier', before this value was a fixed value as the half of the base spread.
+-FIX: Bots keep firing at dead bodies instead of search for new targets.
+-IMPROVE: The overall behave of bots on the battlefield.
+-IMPROVE: Now player classes loadout are scriptable objects, that way devs can modify the loadout of each class in the scriptable instance one time instead of modifying in each player prefab,
+while keeping the option to use different loadout in each player prefab (by creating a new instance of the scriptable).
+-FIX: Error when Network Stats options is enabled in GameData (PUN 2.16++)
+-IMPROVE: Now you can control the head bob movement magnitude per player in bl_FirstPersonController -> HeadBobMagnitude.
+-FIX: Kick button on the Waiting room was not working.
+-ADD: Optional Kill Cam logic "Observed Death", the camera will be statically positioned behind the local player to observe the player ragdoll, you can switch to the previous logic (Follow the killer player) in GameData.
+-FIX: Role's names are applied to all players in the room (in builds only) if the dev log-in with an Admin or Moderator account in the Editor. 
+-IMPROVE: Now you can select how to reload the shotgun and sniper: Per Bullet or Per Magazine in bl_Gun -> Reload Per.
+-FIX: Sometimes changes made in bl_Gun and bl_GunManager in player prefabs were not saved.
+-FIX: Kick button show up for Non-Master Client players and Master Client itself causing him can kick himself.
+
+-1.6
+
+-FIX: FPWeapons get in a weird random position when player jump.
+-ADD: Match start Countdown, players and bots can't move until the countdown finish.
+-IMPROVE: Player and Bot Run Animation sync in Animator Controller.
+-FIX: Player get stuck on edges of mesh's.
+-ADD: "Remember Me" toggle in the Player Name InputField window, when is marked the session will keep open and the player will be redirect to the main menu directly next time that load the game.
+-FIX: Errors when integrate Class Customization, Bomb Defuse or Covert Point.
+-IMPROVE: Separate the Lobby Network and UI Management in different scripts in order to make easy the reskin of the menu UI.
+-ADDON: Elimination: the classic Elimination game mode CS style where two teams have to kill every member of the enemy team (can't re-spawn until next round) in order to win,
+the team that reach the maximum number of rounds wons, will be the winner of the game, Link: 
+-FIX: Can't localized game mode's names when using Localization Addon.
+-IMPROVE: Add an Addons Manager window in MFPS -> Addons -> Addons Manager.
+-FIX: Error Operation FindFriends (222) when player don't have any friend added.
+-IMPROVE: Auto Team Selection Logic, now you can specify when a game mode require Auto Team Selection for balancing games in GameData -> GameModes
+-ADDON: Customizer: now comes with an In-Editor Tutorial; Added the shotgun, sniper and pistol weapon as customizable weapons examples; make easier integration of attachments.
+-IMPROVE: HitBoxes Management, now is easier to set different damage multipliers for body parts / hit boxes from inspector of bl_BodyPartManager script.
+-FIX: Room List was showing only the last created room, due room list was not cached locally.
+-IMPROVE: Rewrite the 'Kill Feed' system, now support different types of messages in which you set only the needed information.
+-ADD: Kill Feed killer weapon icon display option, you can chose to show the display mode (weapon name or weapon icon) in GameData.
+-FIX: In-Editor tutorials render off window in devices with retina display which causes you to not see all the information.
+-IMPROVE: separate the default game modes (TDM, FFA and CTF) logic in independent scripts with the new IGameMode interface.
+-ADD: Waiting Room (MFPS Core): a "PreMatch Menu" that show up after players join in a room, in it players will wait until all require players are ready and the Master Client start the game.
+You can still use the old system (Join direct to the game map and select team in match) by disable waiting room in GameData.
+-ADDON: Waiting Room Pro: This addons comes with more features to extend and improve the new Waiting Room feature that comes in MFPS by default, this include:
+Chat, Change Team, Change Match Properties (Game Mode, Time, Bots, etc...) and Add Joined players as friends, Link:
+-ADDON: Player Selector: InLobby Selection Menu (Optional), now you can integrate player selector menu in lobby in order to select the player one time in lobby instead of each time in a match.
+-FIX: Can't use knife after use Fast Fire knife.
+-FIX: Wrong team color for bots in kill feed (was using the enemy team color)
+-CHANGE: the names of several scripts / classes were changed to make it easier to identify the role they play.
+-IMPROVE: Now player land sound volume is calculated by the fall distance.
+-FIX: Local player Crosshair change when a remote player spawn.
+-IMPROVE: Now after Master Client join in a team, the bot that get replace will be remove from the match instantly instead of wait until he die in match.
+-CHANGE: Rename Team Enum names Delta and Recon to Team1 and Team2 respectively in order to make easier identify even if you change team names on GameData.
+-ADDON: Completely rewrite Bomb Defuse addon, now named as Demolition, now the game mode is similar to the Counter Strike demolition game mode.
+-FIX: Flag capture notification show the Team enum name instead of the in GameData team name.
+-IMPROVE: Now match goals (max kills, max rounds,etc..) are define per Game Mode (GameData -> GameModes[*] -> GameGoalOptions) instead of a global options in bl_Lobby.cs.
+-FIX: Scoreboard doesn't update when a bot kill the local player.
+-IMPROVE: New camera shake system using Perlin Noise; now shake calls are added instead of override the current one; this system use "presents" so you can use the same setup for multiples utility's.
+-FIX: Grenades doesn't cause damage if "ArriveKitsCauseDamage" option in GameData was = false.
+-ADDON: Rewrite from scratch Cover Point game mode addon, designed as the 'Conquest' mode of BTF4, teams will earn 'tickets' for control points; now is easy add/remove points in map; more performed and scalable.
+-ADDON: Level System: Added in Match Level Notifier.
+-FIX: Sometimes players don't die when their health is > 0 but < 1.
+-IMPROVE: Now explosion only cause damage if there is not obstacles between the explosion origin and the damage receiver.
+-FIX: Input Manager: Single fire was detected as automatic in controller and keyboard.
+-FIX: Grenades kills from death bots doesn't count in the team scoreboard.
+-ADDON: Clan System: Fixed several errors when loading data from server.
+
+-1.5
+
+-FIX: Can't assign reload animations for new grenades.
+-FIX: Errors after import in Unity 2018.2
+-IMPROVE: Rewrite the kit drop system, now is more advance, performed and scalable, now you can easily add new type of kits.
+-FIX: Photon Voice Network object keeps doubling each time when leaving a room.
+-IMPROVE: Now bullets are instanced from the FirePoint position instead of center of camera in FPWeapons and TPWeapons, given a more realistic shooting simulation.
+-FIX: Error that cause player death by fall in short distances in random places.
+-IMPROVE: Now remote bullets are calculated by the hit point of the local client (still reliable), that means that now just a Vector3 is sent per bullet message reducing the bandwidth of each bullet up to 60 bytes.
+-ADDON: Shop System: This is a basic shop system integrated with ULogin Pro that allow player spend their in-game coins to purchase weapons, also include the local integration for buy coins packs in game,
+Link: 
+-ADD: Game Mode modes enabled / disabled option in GameData -> Game Modes Available.
+-IMPROVE: Now show the complete game mode name instead of the short code in the room creation menu of the lobby.
+-CHANGE: bl_BulletSettings to BulletData.
+-CHANGE: bl_OnDamageInfo to DamageData.
+-ADDON: Weapon Pack #1, this addon is an integration of 13 weapons models from the 'Animated Hands with Weapons Pack' by Maksim Bugrimov, comes with all require info and prefabs, 
+easy to integrated in new and started projects with the new Import Weapon feature of MFPS, Link: 
+-IMPROVE: Now bl_WeaponAnimation support Animators, so you can use Mecanim animations for FPWeapons, the weapon tutorial has been update too to reflect the changes.
+-IMPROVE: Health and Ammo text are updated only when is needed instead of each frame.
+-IMPROVE: Now weapon pick ups are detected by optimized raycast instead of just by trigger collider, that mean that the player has to look at the weapon to pick up.
+-IMPROVE: Change player damage UI (blood screen) from OnGUI to UGUI.
+-CHANGE: Now bots player prefabs are assigned in GameData instead of in bl_AIManager in the scene object in order to load the prefabs asynchronous.
+-ADDON: MiniMap: A lot of improves and fixes, integration with bots and enhance performance.
+-FIX: Weapon idle movement.
+-ADD: Weapon Export and Import system, basically what this do is export a weapon from a player prefab including all settings, position, GunInfo, Network Gun, etc... 
+so you can import in other player prefabs even in different Unity projects.
+-IMPROVE: Now clamped icons (death team mates and flags icons) will hide if the menu is open.
+-FIX: Coins was not properly store when using ULogin Pro.
+-FIX: Pick up weapons from the ground doesn't update the player speed respect the weapon weight.
+-IMPROVE: Now can use Custom Animations for FPWeapon movements (Walk and Run), instead of the default procedural one.
+-ADD: 'Zoom Out' Field Of View effect when player run.
+-ADDON: ULogin Pro: add game version checking, improves and integration with Shop System addon.
+-DOC: Add replace bot model In-Editor tutorial, check in MFPS -> Tutorials -> Bots.
+-ADD: Custom sound effect when switch fire mode.
+-FIX: A problem when connection to lobby have a little delay causing Friend List throw a error in console.
+-ADDON: Level System: Now levels are update in mid game.
+-ADDON: Class Customization: Various improves and integration with the new Shop Addon.
+
+-1.4.7
+
+-Change: Now minimum version to use MFPS is Unity 2017.4++ (LTS version).
+-FIX: Photon Voice scene was not marked as dirty after integrated causing integration not begin saved after change or reload the scene.
+-FIX: Error when using Photon Chat and subscribe to channels when is not fully connected to the server.
+-FIX: Error that cause unity freeze after the first play or compiled code after first play because not disconnect from server properly.
+-ADDON: New Clan System, this is a ULogin Pro extension that allow players to create or join in Clans, comes with all standard features like, invite players to join, request
+clan to join, set clan as public or private, members roles, Clan Score, etc... check it out here: 
+-FIX: Player name set to null after leave a room, causing can't join in others rooms and name not begin displayed.
+-IMPROVE: Now you can set the default settings values like Quality Level, Sensitivity, Motion Blur, etc...  in GameData -> DefaultSettings
+-FIX: In 'Add Player tutorial', error in Unity 2018.3++ when try to Unpack prefab but this is already unpacked.
+-IMPROVE: Visibility when fire aiming, before muzzleflash hindered the view too much.
+-ADD: MFPS News, a Editor window where you can check news/posts abouts MFPS, you can check this regularly to know when there is a fix for a discover error,
+updates of addons or any other info related to MFPS, open in MFPS -> News.
+-FIX: No implement exception error when 'Show Network Stats' option is set to True.
+-IMPROVE: Now bullet hits sounds are pooled instead of instance every time with AudioSource.PlayClipAtPoint.
+-ADD: Add Map - In-Editor Tutorial, Open in MFPS -> Tutorials -> Add Map.
+-FIX: Bots do not receive damage from Molotov.
+-IMPROVE: Now bl_BulletSettings class are cached instead of create a instance per each bullet.
+-FIX: Virtual coins not begin properly update after match finish.
+-FIX: Join to Team 1 when play with bots remove a bot from Team 2 instead of one of the Team 1.
+-IMPROVE: Now GameData is loaded for cached asynchronous, with this fix a issue that cause CPU spike (unity freeze for a few seconds) at the start of MainMenu or when Login.
+-IMPROVE: ULogin Pro: some improves and fixes (require database update).
+-CHANGE: Now scenes are setup in GameData -> AllScenes instead of bl_Lobby -> scenes.
+-IMPROVE: Show the earned coins in the after match game resume.
+-FIX: Bots from Team 1 not search in Team 2 area in TDM.
+-IMPROVE: Now show the health of the player killer in KillCam UI.
+-ADDON: Scope Pro, a few shaders to get a more realistic scope / sight effect: link: 
+-FIX: bl_GameManager -> OthersActorsInScene list was not caching other players.
+-FIX: Kill Streak Notifier: bots or player never die if the addon is enabled but not integrate in the scene.
+-IMPROVE: Hit marker in order it to be more visible on light scenarios.
+-IMPROVE: Customizer: Attachment now modifies weapon properties like: Aim Position, Fire Sound and Bullets per Magazine.
+-FIX: an error that cause weapon list in bl_GunManager remains locked.
+-IMPROVE: Compatibility with Unity 2019.1
+-FIX: Mobile Controls: Joystick and fire button was not working.
+-FIX: Tutorial Images was not loading in Unity 2019.1
+-FIX: Error on start of MainMenu when Photon Voice was enabled.
+
+-1.4
+
+-CHANGE: Upgrade to PUN2, Now PUN 2 is required and PUN Classic is not longer supported, that means many changes in the code but keep the same functionality of kit.
+-IMPROVE: Now player scoreboard list is orderer ascendant by the score of the player or bot.
+-FIX: Bots don't attack players at least these shot at him in TDM game mode.
+-IMPROVE: add a new algorithm for bots detects near enemy's efficiently, the algorithm calculate nearest nodes that are in the "visual" angle of the bot, making the game play with them more realistic and fun.
+-IMPROVE: Now the bot name is draw above head for bots in the same team of the local player.
+-FIX: Can't damage bots with knife.
+-FIX: Bot statistics in scoreboard was only visible for Master Client.
+-FIX: Bots shoot at target when there's a obstacle between they.
+-IMPROVE: Menu Lobby design.
+-FIX: Explosion damage apply to each body part of the bots which cause that they always die no matter the distance from explosion.
+-IMPROVE: Bots weapon manager, now bots can have different weapons, they take a random weapon from the weapon manager in start. (Rifle and Pistol by default)
+-ADDON: Localization: MFPS Integrated localization system, allow players select they preferred language for all in game text, the addon comes with 6 ready languages (English, Spanish, Chinese, French, Portuguese and Russian)
+but can add many languages as you want, come with a easy editor to edit, remove or add any language / sentence, link: https://www.lovattostudio.com/en/shop/addons/localization/
+-IMPROVE: Editor Tutorials, these tutorial integrated with the editor which make easier to follow and make some steps automatically,
+at the moment are include 3 tutorials: Add Weapon, Add Players and Integrate Photon Voice, more coming in future updates, you can check in MFPS -> Tutorials.
+-IMPROVE: Add AutoRagdoller algorithm, now when add a player model is not longer required created a ragdoll, this will be automatically created (Check Add Player Tutorial).
+-FIX: Scoreboard don't update when open the scoreboard with (TAB) key just when open the whole menu (Scape).
+-IMPROVE: Now detect head shots in bots, and players receive the head shot bonus score for it.
+-IMPROVE: Now final score earned is calculated by kills, head shots, time played and win or not the game, before was just a conversion of kills * certain amount.
+-ADD: Now players receive coins/money after match finish, the amount that they get is calculated by kills, time played and win the match.
+-ADD: Match Resume, now when the match finish, a screen will appear with the player match stats resume instead of return to the lobby instantly.
+-IMPROVE: Now return to lobby by clicking a button instead of leave the room automatically when match end.
+-FIX: Class Customization, in game player class buttons not work.
+-IMPROVE: AI Performance, cleaning and optimization of the code of the AI system which result in a noticeable performance boost when play with bots.
+-IMPROVE: Now the number of bots in room is taken from the room MaxPlayers instead of the fixed number propertied in bl_AIManager.
+-FIX: Multiple instances of PhotonVoiceSettings cause a error log after return from a map to main menu.
+-CHANGE: Now Photon Voice Plug-in is not longer require (still supported), imported it only if you need it.
+-FIX: Bot scoreboard info doesn't disappear after this is replace by a player.
+-IMPROVE: Optimize various scripts which significantly improved the over all game play performance.
+-IMPROVE: Now head walk movement affect weapons when is aiming, before weapon keep static when walk and aim.
+-FIX: Create player tool, was not working in Unity 2018.3++ 
+-FIX: Reload Animation not work for Snipers or Shotguns when 'SplitReloadAnimation' was unchecked on bl_Gun.
+-ADDON: ULogin Pro: Add a filter words feature for avoid certain words on nick names, users will not be able to register the account is one of these words is present in the nick name.
+-ADD: New Local kill notification, show one kill at time, previously show all kills in streak at the same time, this is still available in bl_KillFeed -> LocalKillDisplay.
+-IMPROVE: Add a outline cross image for better crosshair looking.
+-IMPROVE: Now bots re-spawn after the RespawnTime delay (GameData) instead of appear instantly after die.
+-IMPROVE: Now can specify the name of the pooled bullet in bl_Gun.
+-FIX: Team mates bots cause damage to the local player.
+-IMPROVE: Now can remember player name next time that load the game instead of take a random name every time (Optional in GameData).
+-IMPROVE: Added easy way to get Aim position of FPV weapons from bl_Gun inspector (check tutorial MFPS -> Tutorial -> Add Weapon -> FPV Weapon -> Step 8).
+-FIX: Not register the kill for the bot when eliminate a player.
+-IMPROVE: Add the post-process effects options in Main Menu.
+-ADD: Disconnect Cause pop up, this pop up appear when can't connect or disconnect (not by client logic) and show the error cause.
+-FIX: Pick up UI don't disappear if the player is inside of the trigger and this is automatically destroyed or pick up by other player.
+-ADDONS: Customizer: Add camo system and improve the whole system, check out: https://www.youtube.com/watch?v=WeQuld_XaGI
+-IMPROVE: Now the Character AutoRagdoller of MFPS reduce a Unity Physics error that cause that rag-dolls bones stretch when apply force to them.
+-IMPROVE: Now Friend List is open by default.
+-ADD: Connecting screen in lobby.
+-ADDON: MiniMap: Add Auto setup players menu item and fix an error that cause that the player icon remain at the minimap after this die.
+
+-1.3
+
+-ADD: Object Pooling, now bullets, decals, hit particles and others are pooled, a certain amount of those are instance on start and reuse instead of instance and destroy each time that spawn one those,
+this increase the game play performance reducing GC Allocation, check the documentation for see how to pooled an object.
+-FIX: Footstep sound play when player is not moving.
+-FIX: Fall damage system.
+-FIX: Shotgun Reload sounds doesn't play.
+-ADD: Damage Area script (bl_DamagerArea.cs), attached this to a object with a Trigger Collider and when player enter in the trigger will receive damage one time or repeating.
+-ADD: Damage Area example in scene, a wood fire particle effect.
+-IMPROVE: now PhotonVoiceNetwork get destroy when Photon Voice is disable in GameData.
+-ADD: Injured player sound, play when get damage from a non weapon source.
+-IMPROVE: Now bots stats (kills, deaths, score) appear in the scoreboard.
+-IMPROVE: Upgrade WWW to UnityWebRequest for ULogin.
+-FIX: flags in CTF game mode never show up for the master client.
+-ADD: Molotov Cocktail grenade, explode on contact intended to ignite and obliterate enemy's, added in replace of grenade for Assault and Support classes.
+-IMPROVE: Now the network stats gui show the real time total and per second messages (out going and in coming), now you can better debug your game.
+-FIX: Now pick up the correct bullets and clips from pick up weapons, before always pick up 3 clips no matter what.
+-IMPROVE: Random bots names, now bots get a random "real" name, you can add more random names in bl_GameTexts.cs
+-ADD: Foot IK Placement.
+-IMPROVE: Now player scoreboard only update when the scoreboard UI is open.
+-ADD: No weapons idle, walks and run player animation, these play when block weapons (bl_GunManager -> BlockAllWeapons() or is waiting for players.
+-IMPROVE: Change the chat input field from OnGUI to UGUI, which reduce a huge GC allocation cause by GUI.Focus().
+-IMPROVE: Now the players scoreboards automatically show up when finish a round.
+-ADD: Weapon Load out UI, appear each time that the player change of weapon, you can disable in bl_GameData -> ShowWeaponLoadout.
+-IMPROVE: Animated final round UI.
+-FIX: Bots kills and deaths not count on teams scoreboards.
+-FIX: Match doesn't finish if a bot reached the max kills in FFA.
+-IMPROVE: Player spawnPoint gizmo, now is easier place spawn points with a player mesh gizmo and a dome for the area, you can disable gizmos in bl_GameManager -> DrawSpawnPoints.
+-FIX: kill feed notification color doesn't show when a player kill a bot or vise versa.
+-FIX: Shotgun and Sniper recoil return with a few seconds delay after fire.
+-IMPROVE: ULogin: Now Admin and Moderators can go to Admin Panel after login in the welcome window.
+-ADD: Waiting for minimum players, for default is only for CTF mode, while players are waiting will spawn without weapons and they can't take damage, when min players number are reached will re spawn automatically.
+-ADD: Level System: Level list and progress on lobby, now can open a window in lobby with all the levels and the player progress.
+-IMPROVE: Add 'Motion Blur' effect, it can be active / desactive trough the settings menu in game (active by default).
+-FIX: Input Manager missing mapped keys error.
+-FIX: empty fire sound play when try to fire while weapon "take in" animation is playing.
+-IMPROVE: Now players can cancel reload for sniper and shotgun, when is inserting bullets if have at least 1 bullet on clip, player can cancel the animation to be able to fire again. (pressing fire button)
+-IMPROVE: Kill Camera, rewrite for better performance and reduce the overhead when switch from player camera to the kill camera.
+-IMPROVE: Now can set a "safe" fall distance and a "mortal" fall distance in bl_FirstPersonController inspector.
+-ADD: Local health bar, now the bar image under the health text UI also represent the health percentage of the local player.
+-IMPROVE: Now show the correct amount of pick up bullets and the name of the weapon when pick up ammo for weapon.
+-IMPROVE: the bandwidth cost was reduced by sending the gunID in integer instead of in string
+-IMPROVE: Reduced GC allocation each time that shoot a bullet on local and network players.
+-NEW ADDON: UCompassBar, you can get this on lovatto studio store: https://www.lovattostudio.com/en/shop/gui/ucompass-bar/ or in asset store: http://u3d.as/1nwZ 
+-IMPROVE: Add custom inspector for bl_GunManager, now is easier add new weapons and managed the player classes.
+-IMPROVE: Add sounds for jump platforms.
+-FIX: Health regeneration was sending up to 70 messages per second when health was recovering to keep health sync, now just send 1 call per second and keep health sync.
+-CHANGE: bl_OnDamageInfo properties names.
+-ADD: Re spawn countdown time in KillCamera.
+-IMPROVE: Now can add various fire animations for weapons to  play it randomly and give a aspect less monotonous.
+-ADDON: Class Customization: various changes, previous versions (1.2 backward) will not longer work with this MFPS version in up.
+-ADDON: Mobile Controller: Add chat button, open / close the chat input field.
+-ADDON: Player Selector: Added player information like speed, regeneration speed, health, etc.. it's automatically calculate from the player prefab.
+-ADDON: Player Selector: Animated player selection UI.
+-FIX: Error in Unity 2018.1++ due multiple references of MinDrawer.
+-ADDON: Fix and improve mobile joystick.
+
+- 1.2
+
+-IMPROVE: Bots system: Now work on Team Death Match game mode, bots now attack only players and bots from the enemy team in this mode, also
+the bots are more aggressive in this mode, they start searching the enemy instead of randomly patrolling, bots will be replace when a real player enter to fit the max player in room.
+-FIX: In some conditions, room stays active at 00:00 and never ends the round.
+-IMPROVE: First Person Controller, add air control when jump.
+-IMPROVE: Now the player can have not weapons active / in use, check bl_GunManager -> BlockAllWeapons() and ReleaseWeapons()
+-FIX: ULogin Pro: player role from ulogin not displaying in the user name (Admin, Moderator, etc...)
+-ADD: Addictive hit reaction animations to players and bots.
+-IMPROVE: Domination / Cover Point addon: Update OnGUI to UGUI and improve the game mode system.
+-IMPROVE: Now player get more accuracy when crouch, also the crosshair will reduce to indicated this.
+-FIX: Sniper scope keep rendering when is reloading the sniper.
+-UPDATE: Photon Pun (1.91) and Photon Voice (1.6) this fix some errors in Unity 2018.1++
+-ADD: Fast grenade fire, now can throw a grenade using 'G' key when are using other weapon, after throw the grenade automatically will return to the previous weapon.
+-FIX: Some grammar error on kills notifications and Menu.
+-ADD: Extension of PhotonPlayer list, with this you can get the list of PhotonPlayers in a specific team, ej:   PhotonPlayer[] deltaPlayers = PhotonNetwork.playerList.GetPlayersInTeam(Team.Delta);
+-IMPROVE: Add option in GameData "Lock60FPS" to set target frame rate to 60 fps maximum or unlock.
+-IMPROVE: Switch weapon head camera animation.
+-ADD: Switch Weapon player animation in remote players.
+-IMPROVE: Reduce messages per players and per player bandwidth usage.
+-FIX: Fire pistol animation did not play in remote players.
+-IMPROVE: Now show the weapon icon in the weapon pick up UI.
+-ADD: Jump Platforms, a simple but functional map object that can be placed on floors and make players jump higher when they pass over.
+-IMPROVE: now can't fire the weapon until 'DrawAnimation' is complete, with this fix the problem with hands that do not get in the correct pose.
+-IMPROVE: Grenade animations.
+-FIX: Addon: Input Manager keyboard missing keys mapped.
+-IMPROVE: Gun Bob, now include rotation oscillation for a better movement effect, new values in bl_GunBob with which you can play for reached a custom movement.
+-IMPROVE: Player footsteps now are synchronize with the gun bob oscillation.
+-IMPROVE: Player head bob now is synchronize with the gun bob oscillation.
+-FIX: Player get stuck for a while in the edges of meshes.
+-IMPROVE: Fast fire knife process (with 'V' key).
+-ADD: Network stats, provide some useful information of the network connection of the local player, enable it in GameData.
+-FIX: Protection time text appear when others players spawn.
+-FIX: Gun Recoil for single and semi gun types.
+
+- 1.1
+
+-ADD: AI Shooter Bots, Now players can play with bots and other players, bots are sync over network with a basic shooter behavior, bots can shoot and throw grenades between they and real players,
+also have a basic cover / safe point system, bots are available only in FFA game mode at the moment and the system is in BETA stage and will be improve with the future updates.
+-ADD: Weapon Weight: now you can set a weight for each weapon (on the weapon info) that affect the player speed.
+-IMPROVE: Now Gun bob movement speed and footstep rate is affected by the player speed;
+-FIX: Player keep walking without forward key pressed when open menu.
+-IMPROVE: Aim sight hands movement in remote players, using IK you can adjust the position where the right hand will be when is aim in the inspector of bl_HeatLookMecanim.cs
+-FIX: Player running footstep interval was ignored and walking interval was taken instead.
+-Update: Photon PUN and Photon Voice to the last version (1.89 and 1.13.1)
+-FIX: Photon statistics ui in lobby not show again after leave a room.
+-IMPROVE: Head look, now is more accuracy and include the arms with IK support.
+-IMPROVE: Remove the "Change Server" window from lobby and replace with a server drop down.
+-ADD: Spawn protection, now player can't receive damage for a few second after spawn, you can set the time in bl_PlayerDamageManager.cs
+-IMPROVE: Added Russia East optional server.
+-IMPROVE: Now save the preferred server region locally.
+-IMPROVE: Added 'No limit' option for max player ping.
+-FIX: Mobile Control: Can keep throwing grenades even when have not more ammo. (No require update)
+-IMPROVE: Reduce per player net messages and better optimization on bl_PlayerSync.cs
+-ADD: Spectators count in scoreboard, show how many player are spectating the game.
+-ADD: Support ticked system for ULogin Pro addons, now player can send a ticket / message and devs can reply trough the Admin Panel.
+-FIX: MiniMap addons: show two icons for local player in minimap. (No require Update)
+-IMPROVE: Now you can adjust the player left hand position (using IK) on the weapon in the inspector of bl_NetworkGun, an gizmo will show you a preview of where the hand will be.
+-FIX: Player state icon on Mobile control addon.
+-IMPROVE: Mapped the 'Switch weapon fire type' (B) on Input Manager.
+-FIX: keep pressing the reload button while is reloading add more bullets to the weapon of which should.
+-ADD: Network footstep, this feature is optional and disable by default you can active in GameData.
+-FIX: Gun Race, upgrade weapon in all game modes. (No require update)
+-IMPROVE: Input Manager, Add support for GamePad / Console controller, tested on Xbox controller only at the moment. (Require Update)
+
+- 1.0
+
+-ADD: Friend List: using Photon friend feature now player can add, remove, check who is online and join to the friend room trough a list in the lobby.
+-FIX: Level System Addon: show the same level icon for all players in room. (Require Update)
+-FIX: Cover Point Addon: Loading bar show only for master client. (Require Update)
+-ADD: Health Bar, Now can show a health bar UI over the head of teammate players (Optional in GameData)
+-IMPROVE: Now you can use Split (Start, Insert and End) or One Clip reload animation for sniper, you can set on bl_Gun.cs -> SplitReloadAnimation.
+-IMPROVE: Integrated friend list with ULogin Pro Addons, so all friends will store in database for load in any device not only locally. (Require Update Addon)
+-ADD: Kick Vote System: Now player can start a vote for kick a player from the room and all player in room vote yes or no for kick the player through a window UI.
+-ADDONS: New game mode addon: 'Gun Race', in this game mode players upgrade their weapon by eliminating enemies, players win the match begin the first to reached and kill a enemy with the last weapon,
+Link: https://www.lovattostudio.com/en/shop/addons/gun-race/
+-FIX: Photon voice error when start from ULogin scene.
+-IMPROVE: Add push to talk button in Mobile Control Addons. (Require Update)
+-IMPROVE: Add option to disable / enable fall damage from inspector in bl_FirstPersonController.cs
+-IMPROVE: Add Addons info window in tool bar MFPS -> Addons -> Info.
+-IMPROVE: Player scoreboard UI is now interact able, if you click / touch a player UI an pop up with some options will appear.
+-FIX: sometimes fire with knife animation not get play in remote players.
+-IMPROVE: ULogin Pro, now you can set the user status (Admin, Moderator or Normal) from the admin panel. (Require Update)
+-FIX: Max kills not work in FFA mode.
+-FIX: when the player gets damage by falling and continues to jump he continues to take damage regardless of the distance of the jump
+-IMPROVE: Add a jump min rate to avoid bunny jump, you can increase / decrease in bl_FirstPersonController -> JumpMinRate.
+-IMPROVE: Add 'Play as guest' button in ULogin Pro addon, so players can play the game without register a account, of course data will not save in this mode.
+-FIX: the zoom of the camera when aiming with the weapon is maintained even when the weapon is reloading.
+-FIX: player death icon is show to enemy in FFA game mode.
+-IMPROVE: Lobby Options menu.
+-IMPROVE: Add 'Background volume' in lobby options menu.
+-FIX: Sniper scope distance text is not showing.
+-FIX: Can't join to the previous team due join button is not interact able after the first round.
+-FIX: Spectator camera not work due MouseLook script error.
+-IMPROVE: Spectator camera fly movement.
+-FIX: WebGL Photon script error.
+-FIX: Now can compile for WebGL, but Photon Voice is not supported in this platforms, all what you need to do is delete the 'PUNVoice' folder from the project.
+-FIX: Input Manager: Weapons keep playing running animation if 'Run' key is pressed without 'Walk' key. (No require Update)
+-FIX: Class Customizer: default player class slots id's. (Require Update).
+
+- version BETA:-------------------------------------------------------------------------
+
+- b6
+-ADD: Voice Chat, using Photon Voice now team mate players can communicate through voice chat, a icon will appear above players that are talking.
+-IMPROVE: Now instead of take knife ammo, a text will show saying that knife is already equipped.
+-ADD: Player fall damage and death by fall kill feed text.
+-FIX: Kit explosion cause damage if options was disable in game data.
+-FIX: Error in room hashtables with Bomb Defuse game mode and Auto Matchmaking. (not require update addon)
+-ADD: Weapon Ammunition type: Per Bullets (new one) or per Clips (old one), with bullets count the total of bullet in mag and discount just the needed bullets each time that reload.
+-FIX: Player info UI not show in lobby after return from an room.
+-ADD: Mute voice chat toggle in room setting menu.
+-ADD: Push to talk toggle in room setting menu, if this is = false, voice will detect automatically.
+-FIX: Weapons keep playing running animation if LeftShift is pressed without 'W' or 'Up Arrow' (Fixed for mobile control too).
+-ADD: new Local event  bl_EventHandler.OnChangeWeapon(int GunID), this is called when the LOCAL player change of weapon.
+-ADD: 'Auto Fire' for Mobile Controls Add-on, with this players can fire just with put crosshair over a enemy player, can enable / disable in GameData. (Require update addon)
+-IMPROVE: Now dropped guns are not buffered on server, this to reduce amount of cache messages when a new player enter.
+-IMPROVE: Change team buttons not longer appear if room auto selection was  = true
+-FIX: Negative shotgun bullets when reload the last bullets in clip.
+-IMPROVE: Shotgun reload system.
+-ADD: Player state icon, this help player know if they are crouched or standing.
+-IMPROVE: Switch weapon head animation.
+-IMPROVE: Small changes in some scripts for better performance.
+
+- b5
+-ADDON: Integrate 'Mobile Control' add on, with all inputs and buttons for use in mobile platforms: https://www.lovattostudio.com/en/shop/addons/mfps-mobile-control/
+-IMPROVE: Now server statistics in lobby show after connect with the server.
+-FIX: Crouch animation mixed with climbing animation.
+-ADD: Death Icon, now when a team mate player death an decal icon will appear in the position where he die for a few seconds.
+-FIX: Error with player selector add-on. (No Require update add on)
+-FIX: Now player can not change team in Bomb Defuse game mode. (No Require update add on)
+-FIX: When load an non photon scene from Lobby and stop play mode, Unity get stuck when try enter in play mode again.
+-IMPROVE: Now you can set up the default sensitivity in 'GameData'.
+-ADDON: Level System, with this add on you can display the player level in lobby and scoreboard also unlock weapons by level: https://www.lovattostudio.com/en/shop/addons/level-system/
+-IMPROVE: Pick up text now is intractable for touch in mobile's.
+-FIX: Hit marker get stuck if after hit a player change weapon or go to pause menu.
+-UPDATE: Post Processing stack to last update.
+-FIX: Leave room confirm UI not hide when leave room.
+-FIX: Multiple guns pick up if player are over multiples guns.
+-IMPROVE: add extension method for 'GameMode' enum: GetName(), with this you can get the complete name of game mode, you can change the names in bl_GameTexts.cs
+-FIX: Fire Type Text not update when switch weapons.
+-IMPROVE: Now you can specify the types of fire mode that are available for each weapon in bl_Gun inspector.
+
+- b4:
+-ADD: AFK Detection, you can enable / disable in GameData.
+-ADD: AFK Time Limit in GameData, set the time in seconds to start countdown (10 sec) to kick a AFK player.
+-ADD: AFK Kick message in lobby, is show when a player was kicked from previous room for be AFK.
+-ADD: 'MasterCanKickPlayers' option in GameData, to ability or not that master client can kick other players from room.
+-ADD: 3 new cloud server regions: Chennai - India , South Korea - Seoul and Russia.
+-ADDON: Integrate the new 'ULogin System Pro' add-on: https://www.lovattostudio.com/en/shop/network/ulogin-pro/
+-ADD: Confirm leave match window, now when player click on 'left of room' button, will appear a window to confirm or cancel.
+-FIX: Player not take rotation of spawn point.
+-IMPROVE: Added a line to the spawn point gizmo (cyan color), this line represent where the player will start look at when spawn.
+-FIX: Player keep moving for a split second after release the key, now movement is more accuracy.
+-IMPROVE: Add option in GameData "ArriveKitsCauseDamage": is true when a kit arrive the explosion will cause damage to the near players, is not just will shake players.
+-IMPROVE: Update kill cam to UGUI.
+-IMPROVE: Add 'Metal' footstep sounds.
+-ADD: "SelfColor" Color property in bl_KillFeed, this is the color with which the player is highlighter in the kill feed when his own name appears.
+-ADD: Ladder system, add a ladder prefab in the example scene.
+-ADD: Climbing animation for remote players when using ladders.
+-FIX: Frame rate toggle not take store value on start.
+-IMPROVE: Sniper scope in and out animation effect.
+
+- b3:
+-FIX: Can't pick up health after first death or leave the first match.
+-FIX: buffered RPC in AI is trying to access when AI is destroyed.
+-IMPROVE: Clean Input control of bl_Gun.cs
+-ADD: Option in GameData to players can fire while running.
+-ADD: Invert mouse vertical and horizontal option in room menu settings.
+-IMPROVE: FFA example ui scoreboard.
+-IMPROVE: Added some text from scripts that was not listed in bl_GameText.cs
+-FIX: Room data lost for player that enter while the end countdown is started, now when remaining 30 sec to end a round the room will close and re-open when next round start.
+-IMPROVE: Convert all lossy less images to loss less.
+-ADD: Options in GameData to show or not blood particles when hit a player.
+-FIX: bl_DeathZone ignore the death time the second time that is active.
+-ADD: New Recoil system.
+-IMPROVE: Add new parameter in bl_Gun -> "Recoil Speed".
+-IMPROVE: DrawName UI Text.
+-IMPROVE: Reduce the default Build size.
+-ADDON: Compatibility with UGUI MiniMap Add-on.
+-FIX: Sniper scope keep showing if player death and was active.
+
+- b2:
+-ADD: QUICK PLAY: with this new button in lobby, player can join easy to a random available room or if there are no one, will create one automatically with all settings randomized (time, max players, game mode, etc...)
+-FIX: Show password instead of room name in the room list in lobby.
+-ADD: Lobby pop up message when player has been kicked from match due high ping.
+-FIX: Auto Team Selection not work on FFA game mode.
+-FIX: Error when explode a bomb in local client.
+-IMPROVE: Now you can set the max times that a player can change of team per match in Game Data.
+-FIX: If press "Change Team" on in-game menu and then press "ESC" without click join buttons, "JOIN" buttons still appears on screen. 
+-FIX: If two or more players have the same name in a room, only one is displayed in scoreboard.
+-ADDONS COMPATIBILITY: Bomb Defuse, Covert Point, HUD Waypoint, Customizer and Player Selector all with automatic integration.
+-FIX: 'Joined in' + team name text not update with the correct team name from game data.
+-FIX: Network shotgun throw grenades instead of bullets.
+-ADD: New options for set kill cam as 'static' in Game Data, if this is true kill cam will not move from ragdoll head, if it's false will can rotate the camera.
+-FIX: Draw null texture in KillCam cause Spam of warning logs in console.
+-ADD: Documentation, introduce a documentation file still WIP, with some basis tutorial, it will be improve with each update.
+-ADD: 'Documentation' button under MFPS -> Documentation (on top bar).
+
+- b1:
+-ADD: Replace player tool wizard, this tool make more easy change the player model of player prefab (MFPS -> Tools -> Replace Player).
+-ADD: Now players can change of team in middle of room (Optional by the dev).
+-FIX: Player still can move when room menu is open.
+-FIX: When open chat with 'T' or 'Y' the input field appear with the char write.
+-FIX: Crosshair keep showing when open room menu.
+-FIX: Instance kit particle effect never get destroyed if player die before it play.
+-FIX: Can't unlock cursor when is in spectator mode.
+-ADD: Private match, now can create rooms and set a password to join.
+-IMPROVE: Water of example map now is interact-able with footsteps and bullet impact.
+-FIX: When AI bot pass over a pick up gun, it detect like it were the local player.
+-FIX: Array index exception in max ping list of lobby.
+-ADD: Background sound in lobby with fade in / out effect.
+-IMPROVED: Joining to room fade UI.
+-IMPROVE: Automatically Addons integration.
+-FIX: Update manager keep updating desactive game objects, this fix will improve the performance a little bit more.
+-CHANGE: Now player prefabs are assigned in 'GameData' instead of in bl_GameManager of each scene.
+-ADD: Now player can drop gun when die (Optional by the dev) and other players can take it.
+-ADD: Now can destroy the 'Dummy AI', you can  cause damage and destroy the AI over network.
+-IMPROVE: Also if you hit the AI and this are not follow other player it will follow you no matter the distance, also speed will increase.
+-FIX: Health regeneration synchronization.
+-FIX: Fire sound play each time that a remote player switch weapon.
+-IMPROVE: Remote player view rotation is not match with local view.		
+
+- version ALPHA 1.0:-------------------------------------------------------------------------
+
+- ap2:
+-RE-ADD: Fire type text
+-FIX: Some UI Text not display in some resolutions.
+-ADD: Fast fire knife press 'V' key and back again to weapon.
+-FIX: Can change weapon when menu is open.
+-ADD: Multiplayer weapon pick up, now added as core feature (not more a add-on).
+-FIX: Chat target change if press 'T' or 'Y' while typed.
+-ADD: Player health regeneration, optional you can enable from the game data settings (in Resources folder).
+-ADD: Health regeneration settings: Regeneration speed and Start regeneration time after receive damage in bl_PlayerDamageManager.
+-ADD: Max ping option in room creating window, now players can set up the max ping to join in a room.	
+-IMPROVE: Now can see the name or position indicator of all players when are in spectator mode.
+-IMPROVE: High ping warning to UGUI.
+-ADD: Enable / Disable frame rate toggle in settings menu.
+-FIX: when you change a weapon while it's reloading and back to it again, the weapon get stuck.
+
+- ap1:
+-ADD: Fall damage.
+-FIX: Health player show decimals.
+-ADD: Show max kills to win in the top scoreboard UI.
+-FIX: Auto Team selection.
+-IMPROVE: AutoTeam UI to UGUI.
+-IMPROVE: Chat input field design.
+-ADD: Now show the group target of chat (Team or All) in the input field.
+-ADD: Option for enable or disable bullet trail effect.
+-ADD: Option for enable / disable SSAO effect in settings menu in game.
+-ADD: Option for set up the sensitivity when AIM / Scope in settings menu.
+-FIX: Unity freeze after second play time.
+-ADD: Re-introduced spectator mode in game menu with UGUI.
+-RE-ADD: Crouch system integrated with mecanim.
+-FIX: Countdown start when leave the room manually.
+-IMPROVE: Black screen when leave match.

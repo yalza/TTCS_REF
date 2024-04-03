@@ -1,0 +1,45 @@
+﻿Thank you for purchasing MFPS 2.0!.
+Version 1.9
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+**PLEASE NOTE** 
+
+ MFPS 2.0 can only be legally downloaded from:
+ www.lovattostudio.com
+ and 
+ assetstore.unity.com
+
+If you've obtained MFPS via any other source, that means that your license is effectively invalid and you are not allowed to use it,
+as Lovatto Studio as owner and creator of MFPS can't provide support for pirated and/or potentially modified software don't try to get assistance
+without before acquire it legally from one of the previous mentioned sources.
+
+ if you downloaded this illegally and you plan to use it for commercial or non-commercial purposes,
+ you should buy MFPS here: https://www.lovattostudio.com/en/shop/template/mfps-2-0/ and you will be added in list of buyers and use it without any problem,
+ other way you could face legal charges since MFPS is a registered product.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+
+check the In-Editor documentation and tutorials in (Unity Toolbar) MFPS -> Tutorials -> *.
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////
+Requirement:
+
+Unity 2019.4++
+Photon PUN2 2.3++
+
+Optional:
+
+Photon Voice 2 v2.2++
+
+This project uses amazing network system : "Photon PUN 2" (free or plus).
+
+You don't need to have your own server, you can use the Photon Network cloud servers with 20 ccu for free for the development phase.
+
+if you have questions, please feel free to ask me by e-mail.
+contact.lovattostudio@gmail.com
+or visit my forum: http://lovattostudio.com/forum/index.php
+Website: https://www.lovattostudio.com/en/
+
+Video Tutorials: 
+
+  Get Started Video: https://www.youtube.com/watch?v=i6qfVKk0TqY

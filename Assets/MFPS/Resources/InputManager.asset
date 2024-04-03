@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb1c2a9af6619dc448face913953f50e, type: 3}
+  m_Name: InputManager
+  m_EditorClassIdentifier: 
+  Mapped: {fileID: 11400000, guid: eb3312f684374a14b976faa622b1719a, type: 2}
+  useGamePadNavigation: 1
+  runWithButton: 1
+  GamePadInputModule: {fileID: 5269585702801398248, guid: 8d025b50be761f24eb21ddd68899a036,
+    type: 3}
+  GamePadPointerPrefab: {fileID: 90584345749733276, guid: 2cd5381a7cbd7bc47aeeaa38ddcbdec3,
+    type: 3}
+  mappedOptions:
+  - {fileID: 11400000, guid: eb3312f684374a14b976faa622b1719a, type: 2}
+  - {fileID: 11400000, guid: 4794ff3c7b2e2e548ac1cb21a1944ab6, type: 2}
